@@ -1,0 +1,60 @@
+title: "CSCI 174: Fall 2024"
+subtitle: "AI, Ethics, & Society"
+email: vanwars@unca.edu
+baseurl: "/fall2024"
+term_start_date: "2024-08-19"
+term_end_date: "2024-12-15"
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+timezone: "America/New_York"
+# Build settings
+markdown: kramdown
+kramdown:
+  # auto_ids: true
+  auto_id_prefix: "id_"
+theme: minima
+plugins:
+  - jekyll-feed
+exclude: 
+  - _lectures/draft
+  - _assignments/draft
+  - course-files/administrative
+  - course-files/build
+  - course-files/homework/drafts
+  - course-files/tutorials/drafts
+  - course-files/lectures/drafts
+  - course-files/practice_exams/drafts
+  - course-files/projects/drafts
+collections:
+  activities:
+    output: true
+    sort_by: ordering
+    permalink: /activities/:name
+  assignments:
+    output: true
+    sort_by: ordering
+    permalink: /assignments/:name
+  lectures:
+    output: true
+    sort_by: lecture_date
+    permalink: /lectures/:name
+  topics:
+    output: true
+    sort_by: num
+    permalink: /topics/:name
+  quizzes:
+    output: true
+    sort_by: lecture_date
+    permalink: /assignments/:name
+
+collections_dir: pages
+
+sass:
+  style: compact
+  sass_dir: _sass
+
+deadline_reminder: true
+
+
