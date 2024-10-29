@@ -19,17 +19,10 @@ catalog_description: >
     This course explores the rapidly evolving role of artificial intelligence (AI) in modern life. Drawing on ideas from Computer Science and Science and Technology Studies (STS), the course will examine some of the values, design choices and tradeoffs that AI-powered systems make in relation to important societal values (e.g., justice, freedom, welfare) in a variety of different contexts (e.g., labor, politics, the environment, health, education). As we analyze these themes, we will attend to the various goals to which AIs are directed, and how these goals can both amplify and diminish the power and agency of different communities and social groups. The course aims to attract students from across the university (of any major).
 ---
 
-{:.info}
-> ## Post-Helene Updates
-> Welcome back! Due to the time lost because of Helene, the following schedule adjustments have been made:
-> 
-> 1. The midterm has been cancelled. There will still be a cumulative final exam, which will count as 30% of your grade.
-> 1. We will still be meeting synchronously during regularly scheduled class time on Zoom. All class meetings will be recorded. 
-> 1. I will still be taking attendance in order to foster participation and active learning. 
->       * If you are not able to attend the class synchronously, you can still earn full credit for "attendance" completing a 1-page reflection that you will submit to Sarah weekly by email (svanwart@unca.edu). Your reflection should answer at least three of the discussion questions listed under the current topic, which are posted on the [schedule](../). 
+{% include helene-updates.html %}
 
 ## Acknowledgements
-This course builds on work that was developed in collaboration with Dr. Sepehr Vakil and Natalie Melo at Northwestern University.
+This course builds on work that was developed in collaboration with Dr. Sepehr Vakil, Natalie Melo, and Victoria Chavéz at Northwestern University.
 
 ## About this Course
 ### Why should we care about ethical questions with respect to technology?
@@ -55,7 +48,9 @@ The course is open to all students. For CS majors and minors, the course aims to
 
 
 <!-- topics and labs here -->
-{% include schedule-very-simple.html %}
+
+
+<!-- {% include schedule-very-simple.html %} -->
 
 
 ## Required Texts

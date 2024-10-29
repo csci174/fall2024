@@ -12,7 +12,7 @@ slides:
       num: 18
       draft: 1
       type: lecture
-      title: "Surveillance Capitalism and \"Enshitification\""
+      title: "Business Models, Surveillance Capitalism, the Hype Cycle, and \"Enshitification\""
       url: "#"
 # readings: 
 #     - start_date: 2024-10-31
