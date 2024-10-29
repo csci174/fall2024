@@ -2,30 +2,51 @@
 {% assign date = include.date %}
 
 <!-- Slides -->
+<strong>In-Class Activities</strong> (during class):
 {% assign slides = page.slides | filter_list_by_date: date %}
 {% for slide in slides %}
     {{ slide | display_link_or_badge: false, true }}
 {% endfor %}
 
 <!-- Activities -->
-{% assign activities = page.activities | filter_list_by_date: date %}
+{% assign activities_old_style = page.activities | filter_list_by_date: date %}
+{% assign activities_new_style = page | get_activities_by_module_by_date: site, date  %}
+{% assign activities = activities_old_style | concat: activities_new_style %}
 {% for activity in activities %}
     {{ activity | display_link_or_badge: false, true }}
+    <ul>
+        <li>
+            In lieu of attending class, you can complete and 
+            submit Activity {{activity.num}} to the 
+            Moodle as your participation grade.
+        </li>
+    </ul>
 {% endfor %}
 
-{% assign activities = page | get_activities_by_module_by_date: site, date  %}
-{% for activity in activities %}
-    {{ activity | display_link_or_badge: false, true }}
-{% endfor %}
-
-<!-- Discussions -->
+<!-- Discussions & Journals -->
 {% assign discussions = page | get_discussions_by_module_by_date: site, date  %}
-{% for discussion in discussions %}
-    {{ discussion | display_link_or_badge: false, true }}
-{% endfor %}
-
-<!-- Journals -->
 {% assign journals = page | get_journals_by_module_by_date: site, date  %}
-{% for journal in journals %}
-    {{ journal | display_link_or_badge: false, true }}
-{% endfor %}
+
+{% assign discussion_count = discussions | size %}
+{% assign journal_count = journals | size %}
+{% assign total = discussion_count | plus: journal_count %}
+{% if total > 0 %}
+    <strong style="margin-top:20px;display: block;">Homework:</strong>
+    {% for discussion in discussions %}
+        {{ discussion | display_link_or_badge: false, true }}
+        <ul>
+            <li>
+                {% assign seconds = 60 | times: 60 | times: 24 | times: 3 %}
+                Post due before class on {{discussion.start_date | date: '%m/%d'}}. 
+                Respond to two of your peers by 
+                {{ discussion.start_date | date: "%s" | plus: seconds | date: '%m/%d' }}
+                at midnight.
+            </li>
+        </ul>
+    {% endfor %}
+
+    <!-- Journals -->
+    {% for journal in journals %}
+        {{ journal | display_link_or_badge: false, true }}
+    {% endfor %}
+{% endif %}

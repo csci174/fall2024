@@ -39,6 +39,9 @@ function setVisibility(div, btn, expandFlag) {
 
 window.addEventListener("scroll", function () {
     const button = document.getElementById("toggle-button");
+    if (!button) {
+        return;
+    }
     if (document.documentElement.scrollTop > 70) {
         button.classList.remove("hide"); // Show the button
     } else {

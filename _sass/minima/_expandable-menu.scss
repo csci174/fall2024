@@ -61,7 +61,8 @@
 @media (max-width: 600px) {
 
     #toggle-button,
-    #toggle-button.show {
+    #toggle-button.show,
+    .toggle-date {
         display: none;
     }
 }
