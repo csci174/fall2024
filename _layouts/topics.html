@@ -10,6 +10,14 @@ layout: two-column
         /* background-color: transparent; */
     }
 
+    .assignments.topics h2 {
+        margin-top: 50px;
+    }
+
+    .assignments.topics h2:first-child {
+        margin-top: 20px;
+    }
+
     td .reading,
     td .lecture,
     td .badge,
@@ -97,7 +105,7 @@ layout: two-column
 <section class="assignments topics">
 {% for topic in site.topics %}
 <h2 id="topic_{{topic.num}}">Unit {{topic.num}}. {{ topic.title }}</h2>
-{{topic.description}}
+<div class="card">{{topic.description}}</div>
 {% assign lectures = topic | get_lectures_by_module: site %}
 {% for lecture in lectures %}
 {% assign lastWeek = "" %}

@@ -5,8 +5,8 @@ type: lecture
 num: 5
 draft: 0
 start_date: 2024-09-05
-description: >
-   TBD
+# description: >
+#    TBD
 slides: 
     - start_date: "2024-09-05"
       num: 6

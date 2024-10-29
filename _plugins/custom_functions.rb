@@ -208,7 +208,7 @@ module Jekyll
             discussions = site['assignments'].select { 
                 |item| 
                     page['discussions'].include?(item['num']) && 
-                    item['type'] == 'discussion' && 
+                    item['type'] == 'forum' && 
                     convert_to_date_if_not_already(item['start_date']) == date
             }
         end
@@ -230,6 +230,21 @@ module Jekyll
         end
         return journals
       end
+
+      def get_activities_by_module_by_date(page, site, date)
+        date = convert_to_date_if_not_already(date)
+        activities = []
+        if page && page['activity_links']
+            puts site['activities'].length()
+            activities = site['activities'].select { 
+                |item| 
+                    page['activity_links'].include?(item['num']) && 
+                    item['type'] == 'activity' && 
+                    convert_to_date_if_not_already(item['start_date']) == date
+            }
+        end
+      return activities
+    end
 
 
       def get_all_module_activities(page, site)
@@ -271,7 +286,7 @@ module Jekyll
 
       def filter_list_by_date(list, date)
         if !list.nil?
-            return list.select{ |item| convert_to_date_if_not_already(item['start_date']) == date if item['start_date'] } 
+            return list.select{ |item| convert_to_date_if_not_already(item['start_date']) == date if item && item['start_date'] } 
         end
         return []
       end

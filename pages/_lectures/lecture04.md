@@ -6,7 +6,7 @@ type: lecture
 draft: 0
 start_date: 2024-08-29
 description: >
-    A brief exploration of select ideas in moral philosophy and social psychology.
+    Over the next 2 lectures, we will be reading about moral philosophy, drawing from the Michael Sandel book, <em>Justice: What's the right thing to do?</em> There are many different ways to analyze moral dilemmas. By applying some of these ethical frameworks to real-world dilemmas, you will better understand the strengths and weaknesses of different approaches.
 slides: 
     - start_date: "2024-08-29"
       num: 4
@@ -55,12 +55,12 @@ readings:
       required: 1
 activities:
     - start_date: "2024-08-29"
-      num: 3
+      num: 2
       type: activity
       title: "Summarize a Philosophical Perspective: Utilitarianism, Deonological Ethics, and Libertarianism"
       url: https://docs.google.com/document/d/16SYPq6psBc832cdazPO_36E_n3tHEZXl/edit
     - start_date: "2024-09-03"
-      num: 4
+      num: 3
       type: activity
       title: "Summarize a Philosophical Perspective: Rawles & Aristotle"
       url: https://docs.google.com/document/d/1J3ZdRjLMbymF7FIGltwXjC5iM_OrLklt/edit?usp=sharing&ouid=113376576186080604800&rtpof=true&sd=true

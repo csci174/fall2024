@@ -1,8 +1,8 @@
 ---
 layout: assignment-two-column
 title: "Technological Solutionism"
-type: discussion
-abbreviation: Discussion
+type: forum
+abbreviation: Forum
 num: 4
 points: 3
 start_date: 2024-10-29

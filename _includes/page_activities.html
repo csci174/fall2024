@@ -13,6 +13,11 @@
     {{ activity | display_link_or_badge: false, true }}
 {% endfor %}
 
+{% assign activities = page | get_activities_by_module_by_date: site, date  %}
+{% for activity in activities %}
+    {{ activity | display_link_or_badge: false, true }}
+{% endfor %}
+
 <!-- Discussions -->
 {% assign discussions = page | get_discussions_by_module_by_date: site, date  %}
 {% for discussion in discussions %}

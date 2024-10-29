@@ -1,8 +1,8 @@
 ---
 layout: assignment-two-column
 title: "Black Mirror"
-type: discussion
-abbreviation: Discussion
+type: forum
+abbreviation: Forum
 num: 1
 points: 3
 start_date: 2024-08-22

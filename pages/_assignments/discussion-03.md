@@ -1,8 +1,8 @@
 ---
 layout: assignment-two-column
 title: "The Politics of Techololgy"
-type: discussion
-abbreviation: Discussion
+type: forum
+abbreviation: Forum
 num: 3
 points: 3
 start_date: 2024-09-05

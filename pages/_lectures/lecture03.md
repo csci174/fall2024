@@ -6,7 +6,7 @@ type: lecture
 draft: 0
 start_date: 2024-08-27
 description: >
-    A brief exploration of select ideas in moral philosophy and social psychology.
+    In this lecture, we will briefly consider the biology and psychology of moral decision-making. This includes examining the ways that humans tend to respond to certain situations, and how these tendencies can be diminished and amplified through our technologies.
 slides: 
     - start_date: "2024-08-27"
       num: 3

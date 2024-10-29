@@ -5,8 +5,8 @@ type: lecture
 num: 6
 draft: 0
 start_date: 2024-09-10
-description: >
-   TBD
+# description: >
+#    TBD
 slides: 
     - start_date: "2024-09-10"
       num: 7
@@ -53,9 +53,10 @@ readings:
       required: 1
 activities:
     - start_date: "2024-09-17"
+      num: 4
       type: activity
       url: https://docs.google.com/document/d/1uoZjdCBsNKtSNU-Bohdg0AtqLPVx5S7_xZ20sOfVluI/edit?usp=sharing
-      title: Discussion Questions
+      title: In-Class Discussion Questions
 
 ---
 

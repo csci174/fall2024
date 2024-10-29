@@ -2,7 +2,7 @@
 layout: module
 title: Intro to the Course
 description: > 
-    Course Overview & Logistics
+    Welcome to the course! This lecture discusses the course format, logistics, and general plan for the semester. 
 type: lecture
 num: 1
 draft: 0

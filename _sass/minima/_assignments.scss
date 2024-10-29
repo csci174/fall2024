@@ -29,6 +29,7 @@
         .lab, a.lab,
         .journal, a.journal,
         .discussion, a.discussion,
+        .forum, a.forum,
         .video, video.lab,
         .quiz, a.quiz,
         .ec, a.ec {
@@ -52,6 +53,7 @@
     .hw, a.hw, 
     .homework, a.homework, 
     .discussion, a.discussion, 
+    .forum, a.forum, 
     .journal, a.journal, 
     .pj, a.pj, 
     .project, a.project, 
@@ -91,7 +93,8 @@
         color: #676767;
     }
     .hw, .hw:hover, .homework, .hw:hover,
-    .discussion, .discussion:hover {
+    .discussion, .discussion:hover,
+    .forum, .forum:hover {
         background: $river;
     }
     .quiz, .quiz:hover {

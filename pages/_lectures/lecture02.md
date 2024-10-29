@@ -33,20 +33,12 @@ readings:
       pick_one: 1
 activities:
     - start_date: "2024-08-22"
-      num: 2
+      num: 1
       type: activity
       title: In-class discussion questions
       url: https://docs.google.com/document/d/1L_UrsFh9SWu1X-0AQizG-atDUDwu3b5Sec-por4wli8/edit?tab=t.0#heading=h.yy8uersk64az
 discussions: [1]
-    
-
-# questions:
-#     - When did the idea of artificial intelligence begin?
-#     - What were some of the initial applications of artificial intelligence? Who funded the development of these applications?
-#     - When were "deep neural networks" (DNNs) first conceptualized?
-#     - What kinds of technological innovations made DNNs practical?
-#     - What is an algorithm? What is the difference between a static and a dynamic algorithm?
 description: > 
-    Today we will discuss a very brief history of AI, and then discuss the two Black Mirror episodes.
+    This lecture gives a very brief history and overview of AI. We will then analyze the two Black Mirror episodes and identify some of the themes and issues that each episode raises regarding AI and society.
 ---
 
