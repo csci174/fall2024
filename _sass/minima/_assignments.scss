@@ -18,20 +18,22 @@
 
 .assignments, .lectures, .readings, .syllabus, .schedule {
     .passed {
-        // .hw, a.hw, 
-        // .homework, a.homework, 
-        // .pj, a.pj,  
-        // .project, a.project,
-        // .lec, a.lec, 
-        // .activity, a.activity, 
-        // .topic, a.topic, 
-        // .project, a.pj,
-        // .lab, a.lab,
-        // .video, video.lab,
-        // .quiz, a.quiz,
-        // .ec, a.ec {
-        //     background: #CCC;
-        // }
+        .hw, a.hw, 
+        .homework, a.homework, 
+        .pj, a.pj,  
+        .project, a.project,
+        .lec, a.lec, 
+        .activity, a.activity, 
+        .topic, a.topic, 
+        .project, a.pj,
+        .lab, a.lab,
+        .journal, a.journal,
+        .discussion, a.discussion,
+        .video, video.lab,
+        .quiz, a.quiz,
+        .ec, a.ec {
+            background: #CCC;
+        }
         strong, th {
             font-weight: 200;
             color: #5c5962;
@@ -49,6 +51,8 @@
     .topic, a.topic, 
     .hw, a.hw, 
     .homework, a.homework, 
+    .discussion, a.discussion, 
+    .journal, a.journal, 
     .pj, a.pj, 
     .project, a.project, 
     .lec, a.lec, 
@@ -86,7 +90,8 @@
         background: #EEE;
         color: #676767;
     }
-    .hw, .hw:hover, .homework, .hw:hover {
+    .hw, .hw:hover, .homework, .hw:hover,
+    .discussion, .discussion:hover {
         background: $river;
     }
     .quiz, .quiz:hover {
@@ -102,7 +107,8 @@
     .activity, .activity:hover, a.activity {
         background-color: $gold;
     }
-    .video, .video:hover {
+    .video, .video:hover,
+    .journal, .journal:hover {
         background: $clay;
     }
     .reading, a.reading {

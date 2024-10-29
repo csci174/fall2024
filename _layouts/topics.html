@@ -3,6 +3,7 @@ layout: two-column
 ---
 
 <style>
+    
     h2 a,
     h2 a:hover {
         border-bottom: dotted 1px !important;
@@ -15,6 +16,11 @@ layout: two-column
     td .lab,
     td .activity {
         font-size: 0.8rem !important;
+    }
+
+    h4 {
+        padding-bottom: 3px;
+        /* border-bottom: solid 1px #DDD; */
     }
 
     .mb-1 {
@@ -30,13 +36,18 @@ layout: two-column
     }
 
     .assignments.topics ul {
-        padding: 0;
+        padding-left: 20px;
     }
 
     .assignments.topics table {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         border-color: #CCC;
         border-width: 0px;
+    }
+
+    .assignments.topics table p {
+        margin: 15px 0 0 0;
+        font-size: 1em;
     }
 
     .assignments.topics table tr {
@@ -47,7 +58,7 @@ layout: two-column
 
     .assignments.topics p,
     .assignments.li {
-        margin-bottom: 10;
+        margin-bottom: 10px;
         line-height: 1.6em;
     }
 
@@ -58,8 +69,6 @@ layout: two-column
         background-color: #FAFAFA;
         margin-bottom: 20px;
     }
-
-
 
     @media screen and (max-width: 1000px) {
         main {
@@ -87,18 +96,19 @@ layout: two-column
 {{content}}
 <section class="assignments topics">
 {% for topic in site.topics %}
-{% assign week = site.term_start_date | get_week_number: topic.start_date %}
-{% expandable level=2
-    expanded="true"
-    title="{{ topic.title }}" %}
+<h2 id="topic_{{topic.num}}">{{ topic.title }}</h2>
 {{topic.description}}
 {% assign lectures = topic | get_lectures_by_module: site %}
 {% for lecture in lectures %}
 {% assign lastWeek = "" %}
-{% expandable level=3 expanded="true" title="{{lecture.num }}. {{lecture.title}}" %}
+{% expandable level=3 expanded="true" 
+    title="{{lecture.title}}"
+    id="lecture_{{lecture.num}}"
+    tag="{{lecture.start_date | date: '%A, %m/%d'}}" %}
 <p>{{ lecture.description }}</p>
 {% assign module_dates = lecture | get_module_dates: site %}
 {% if module_dates.size > 0 %}
+<h4>Readings & Activities</h4>
 <table>
     <thead>
         <th>Week</th>
@@ -121,30 +131,32 @@ layout: two-column
                 {{ date | date: "%a, %-m/%-d" }}
             </td>
             <td>
-                {% include page_activities.html page=lecture %}
+                {% include page_activities.html page=lecture date=date %}
             </td>
             <td>
                 <!-- Readings -->
                 {% assign readings = lecture.readings | filter_list_by_date: date %}
-                {{ lecture.reading_instructions}}
-                <ul>
-                    {% for reading in readings %}
-                    <li>
-                        {{ reading | display_link_or_badge: true, false, true }}
-                    </li>
-                    {% endfor %}
-                </ul>
+                {% include page_readings.html page=lecture %}
             </td>
         </tr>
         {% endfor %}
     </tbody>
 </table>
+
+{% if lecture.questions %}
+<h4>Discussion Questions</h4>
+<ol>
+    {% for question in lecture.questions %}
+    <li>{{question}}</li>
+    {% endfor %}
+</ol>
+{% endif %}
+
 {% else %}
-    <p>Coming Soon!</p>
+<p>Lecture details coming soon.</p>
 {% endif %}
 {% endexpandable %}
 {% endfor %}
-        {% endexpandable %}
-    {% endfor %}
+{% endfor %}
 
 </section>

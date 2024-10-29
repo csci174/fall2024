@@ -8,7 +8,7 @@ module Jekyll
         doc = Nokogiri::HTML::DocumentFragment.parse(input)
         doc.css('h1, h2, h3, h4, h5, h6').each do |heading|
             id = heading.content.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
-            if heading['id'].start_with?("id_")
+            if !heading['id'] || heading['id'].start_with?("id_")
                 heading['id'] = "#{id}_#{generate_random_id}"
             end
             #puts heading['keep_id']
@@ -69,8 +69,8 @@ module Jekyll
         rendered_content = assign_ids_to_headings(rendered_content)
 
         # Generate target id:
-        target = "panel_#{generate_random_id}"
         header_id = id || "heading_#{generate_random_id}"
+        target = "panel_#{header_id}"
 
         # Wrap the content in a div with a button for expand/collapse functionality
         # Escape the HTML output to prevent Liquid from rendering it as code
@@ -84,8 +84,9 @@ module Jekyll
         id=\"#{header_id}\"
         target-panel=\"##{target}\"
         onclick=\"toggleExpandable(this)\"
-        style=\"cursor: pointer;\">
-            #{title}#{tag ? "<span class='badge light' style='font-weight:400;'>#{tag}</span>" : ""}
+        style=\"cursor: pointer;\"
+        class=\"expandable-heading\">
+            #{title}#{tag ? "<span class='toggle-date'>#{tag}</span>" : ""}
     </h#{level}>
 </div>
 <div class='expandable-content' 

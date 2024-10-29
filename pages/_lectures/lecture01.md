@@ -20,17 +20,6 @@ readings:
       title: Please read the syllabus
       url: /syllabus
       required: 1
-
-activities:
-    - start_date: "2024-08-20"
-      type: activity
-      num: 1
-      title: Identity Journal (during class)
-      url: /activities/journal-01
-
-questions:
-    - A
-    - B
-    - C
+identity_journals: [1]
 ---
 

@@ -13,45 +13,28 @@ slides:
       type: lecture
       title: Biological & Psychological Foundations of Morality
       url: https://docs.google.com/presentation/d/1pWfzKDHhT6FjaU1E9kPe09a5PO0P5qsN/edit?usp=sharing&ouid=113376576186080604800&rtpof=true&sd=true
-      link: > 
-        Lecture 3: <a href="https://docs.google.com/presentation/d/1Caf-Ri8A5TNeYjTNC4yL5aD074NYNJAD/edit?usp=sharing&ouid=113376576186080604800&rtpof=true&sd=true" target="_blank">Intro to Version Control</a>
 readings: 
     - start_date: "2024-08-27"
-      title: IDK
       num: 1
       type: reading
+      citation: >
+        Haidt (2008). <a href="https://www.ted.com/talks/jonathan_haidt_the_moral_roots_of_liberals_and_conservatives" target="_blank">The Moral Roots of Liberals and Conservatives</a>. Ted Talk.
       required: 1
-      url: https://abseil.io/resources/swe-book/html/ch16.html
-activities:
-    - start_date: "2024-09-03"
-      title: Identity Journal 2
-      num: 1
-      type: activity
-      draft: 1
-videos:
     - start_date: "2024-08-27"
-      type: video
-      title: Lecture recording
-      url: https://drive.google.com/file/d/1d-UBkRjfNZ7ll_x05zz2EvR5uVE4yN1T/view?usp=drive_link
-    - start_date: "2024-09-03"
-      type: video
-      title: Lecture recording
-      url: https://drive.google.com/file/d/19nCHNg0rMgWyS_XyLr4LcUF4ByB2LJ7-/view?usp=drive_link
-labs: [2, 3]
-questions:
-    - Why is version control important?
-    - Why is code history important?
-    - What is the difference between centralized and distributed version control?
-    - What is the problem with having long-running dev branches? What is the solution?
-    - What is the one version rule?
-    - What are the tradeoffs of having a "monorepo" versus multiple repos?
-    - What is the difference between git and GitHub?
-    - What is the difference between a merge commit and rebasing? What would you want to do one over the other (i.e., what are the the tradeoffs of each)?
-    - What does the "origin" typically refer to?
-    - > 
-        What do the following git commands do? 
-        <code>clone</code>, <code>status</code>,
-        <code>add</code>, <code>log</code>, <code>commit</code>, <code>push</code>, <code>pull</code>, <code>merge</code>, <code>rebase</code>
+      num: 2
+      type: reading
+      citation: >
+        Utilitarianism: Singer, P. (1999). <a href="https://drive.google.com/file/d/1DS0CntxFftAZelc845kq4AYwkC7G4YUT/view?usp=drive_link" target="_blank">The Singer Solution to World Poverty</a>. New York Times Magazine.
+      pick_one: 1
+      required: 1
+    - start_date: "2024-08-27"
+      num: 3
+      type: reading
+      citation: >
+        Pinker (2008). <a href="https://drive.google.com/file/d/1lO3sHfqDP9LpSsLAuZiBNn5lusfckWLc/view?usp=sharing" target="_blank">The Moral Instinct</a>. New York Times
+      pick_one: 1
+      required: 1
+identity_journals: [2]
 ---
 
 

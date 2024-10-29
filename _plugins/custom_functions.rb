@@ -68,6 +68,7 @@ module Jekyll
       end
 
       def get_target(url)
+        return nil if not url
         (url && url.start_with?("http")) ? "_blank" : ""
       end
 
@@ -156,10 +157,11 @@ module Jekyll
       def convert_to_date_if_not_already(date)
         # date.is_a?(Time) ? Date.parse(date.to_s) : Date.parse(date)
         if date.is_a?(String)
-            Date.strptime(date, '%Y-%m-%d')  # Parse string to Date
+            return Date.strptime(date, '%Y-%m-%d')  # Parse string to Date
         elsif date.is_a?(Date)
-            date  # If it's already a Date object, use it as is
+            return date  # If it's already a Date object, use it as is
         end
+        return nil
       end
 
 
@@ -196,6 +198,37 @@ module Jekyll
             projects = site['assignments'].select { |item| page['projects'].include?(item['num']) && item['type'] == 'project' }
         end
         return projects
+      end
+
+
+      def get_discussions_by_module_by_date(page, site, date)
+        date = convert_to_date_if_not_already(date)
+        discussions = []
+        if page && page['discussions']
+            discussions = site['assignments'].select { 
+                |item| 
+                    page['discussions'].include?(item['num']) && 
+                    item['type'] == 'discussion' && 
+                    convert_to_date_if_not_already(item['start_date']) == date
+            }
+        end
+        return discussions
+      end
+
+
+      def get_journals_by_module_by_date(page, site, date)
+        date = convert_to_date_if_not_already(date)
+        journals = []
+        if page && page['identity_journals']
+            journals = site['assignments'].select { |item| page['identity_journals'].include?(item['num']) && item['type'] == 'journal' }
+            journals = site['assignments'].select { 
+                |item| 
+                    page['identity_journals'].include?(item['num']) && 
+                    item['type'] == 'journal' && 
+                    convert_to_date_if_not_already(item['start_date']) == date
+            }
+        end
+        return journals
       end
 
 

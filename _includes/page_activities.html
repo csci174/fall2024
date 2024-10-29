@@ -1,9 +1,10 @@
 {% assign page = include.page %}
+{% assign date = include.date %}
 
 <!-- Slides -->
 {% assign slides = page.slides | filter_list_by_date: date %}
-    {% for slide in slides %}
-{{ slide | display_link_or_badge: false, true }}
+{% for slide in slides %}
+    {{ slide | display_link_or_badge: false, true }}
 {% endfor %}
 
 <!-- Activities -->
@@ -12,14 +13,14 @@
     {{ activity | display_link_or_badge: false, true }}
 {% endfor %}
 
-<!-- Labs -->
-{% assign labs = page | get_labs_by_module_by_date: site, date %}
-{% for lab in labs %}
-    {{ lab | display_link_or_badge: false, true }}
+<!-- Discussions -->
+{% assign discussions = page | get_discussions_by_module_by_date: site, date  %}
+{% for discussion in discussions %}
+    {{ discussion | display_link_or_badge: false, true }}
 {% endfor %}
 
-<!-- Projects -->
-{% assign projects = page | get_projects_by_module_by_date: site, date %}
-{% for project in projects %}
-    {{ project | display_link_or_badge: false, true }}
+<!-- Journals -->
+{% assign journals = page | get_journals_by_module_by_date: site, date  %}
+{% for journal in journals %}
+    {{ journal | display_link_or_badge: false, true }}
 {% endfor %}

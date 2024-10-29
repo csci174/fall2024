@@ -1,5 +1,8 @@
 const openIcon = "<i class='fa-solid fa-angle-down'></i>";
 const closedIcon = "<i class='fa-solid fa-angle-right'></i>";
+const expandText = "Expand All";
+const collapseText = "Collapse All";
+
 let expandablePreferences = {};
 
 function toggleExpandable(srcElement) {
@@ -14,18 +17,15 @@ function toggleExpandable(srcElement) {
 
 function toggleAll() {
     const toggleButton = document.getElementById("toggle-button");
-    const expandText = "Expand All";
-    const collapseText = "Collapse All";
     const btnText = toggleButton.innerHTML.trim();
-
     const expandFlag = btnText === collapseText ? false : true;
+
     const divs = document.querySelectorAll(".expandable-content");
     const toggleIcons = document.querySelectorAll(".toggle-button");
     for (let i = 0; i < divs.length; i++) {
         setVisibility(divs[i], toggleIcons[i], expandFlag);
     }
     toggleButton.innerHTML = btnText === expandText ? collapseText : expandText;
-    saveToLocalStorage();
 }
 
 function setVisibility(div, btn, expandFlag) {
@@ -33,20 +33,15 @@ function setVisibility(div, btn, expandFlag) {
     btn.innerHTML = expandFlag ? openIcon : closedIcon;
 
     const btnId = btn.getAttribute("target-panel").substring(1);
-    // console.log(btnId);
     expandablePreferences[btnId] = expandFlag;
     saveToLocalStorage();
 }
 
 window.addEventListener("scroll", function () {
     const button = document.getElementById("toggle-button");
-    // console.log(document.documentElement.scrollTop);
-    // Check the scroll position
     if (document.documentElement.scrollTop > 70) {
-        // console.log("show");
         button.classList.remove("hide"); // Show the button
     } else {
-        // console.log("hide");
         button.classList.add("hide"); // Hide the button
     }
 });
@@ -58,7 +53,6 @@ function loadFromLocalStorage() {
         for (const key in expandablePreferences) {
             const id = key;
             const expandFlag = expandablePreferences[key];
-            // console.log(id, expandFlag);
             const panel = document.getElementById(id);
             if (panel) {
                 const btn = document.querySelector(`[target-panel="#${id}"]`);

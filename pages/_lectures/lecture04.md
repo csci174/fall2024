@@ -9,26 +9,63 @@ description: >
     A brief exploration of select ideas in moral philosophy and social psychology.
 slides: 
     - start_date: "2024-08-29"
-      num: 3
+      num: 4
       type: lecture
-      title: ??
-      url: #
-      link: > 
-        Lecture 3: <a href="https://docs.google.com/presentation/d/1Caf-Ri8A5TNeYjTNC4yL5aD074NYNJAD/edit?usp=sharing&ouid=113376576186080604800&rtpof=true&sd=true" target="_blank">Intro to Version Control</a>
-questions:
-    - Why is version control important?
-    - Why is code history important?
-    - What is the difference between centralized and distributed version control?
-    - What is the problem with having long-running dev branches? What is the solution?
-    - What is the one version rule?
-    - What are the tradeoffs of having a "monorepo" versus multiple repos?
-    - What is the difference between git and GitHub?
-    - What is the difference between a merge commit and rebasing? What would you want to do one over the other (i.e., what are the the tradeoffs of each)?
-    - What does the "origin" typically refer to?
-    - > 
-        What do the following git commands do? 
-        <code>clone</code>, <code>status</code>,
-        <code>add</code>, <code>log</code>, <code>commit</code>, <code>push</code>, <code>pull</code>, <code>merge</code>, <code>rebase</code>
+      title: "Moral Philosophy: Part 1"
+      url: https://docs.google.com/presentation/d/1kKozQIIFuX9huu9R-GMRXIL-D1i9lRcT/edit?usp=sharing&ouid=113376576186080604800&rtpof=true&sd=true
+    - start_date: "2024-09-03"
+      num: 5
+      type: lecture
+      title: "Moral Philosophy: Part 2"
+      url: https://docs.google.com/presentation/d/1kKozQIIFuX9huu9R-GMRXIL-D1i9lRcT/edit?usp=sharing&ouid=113376576186080604800&rtpof=true&sd=true
+readings: 
+    - start_date: "2024-08-29"
+      type: reading
+      citation: >
+        Sandel, Michael J. (2009). Chapter 1. Doing the Right Thing. Justice: What's the right thing to do?
+      required: 1
+    - start_date: "2024-08-29"
+      type: reading
+      citation: Chapter 2. Utilitarianism (Consequentialism)
+      pick_one: 1
+      required: 1
+    - start_date: "2024-08-29"
+      type: reading
+      citation: Chapter 3. Libertarianism
+      pick_one: 1
+      required: 1
+    - start_date: "2024-08-29"
+      type: reading
+      citation: Chapter 5. Kant (Deontological Ethics)
+      pick_one: 1
+      required: 1
+    - start_date: "2024-09-03"
+      type: reading
+      citation: Everyone should read Chapter 9. What do we owe one another? (Sandel, 2009). 
+      required: 1
+    - start_date: "2024-09-03"
+      type: reading
+      citation: Chapter 6. Rawls
+      pick_one: 1
+      required: 1
+    - start_date: "2024-09-03"
+      type: reading
+      citation: Chapter 8. Aristotle (Virtue Ethics)
+      pick_one: 1
+      required: 1
+activities:
+    - start_date: "2024-08-29"
+      num: 3
+      type: activity
+      title: "Summarize a Philosophical Perspective: Utilitarianism, Deonological Ethics, and Libertarianism"
+      url: https://docs.google.com/document/d/16SYPq6psBc832cdazPO_36E_n3tHEZXl/edit
+    - start_date: "2024-09-03"
+      num: 4
+      type: activity
+      title: "Summarize a Philosophical Perspective: Rawles & Aristotle"
+      url: https://docs.google.com/document/d/1J3ZdRjLMbymF7FIGltwXjC5iM_OrLklt/edit?usp=sharing&ouid=113376576186080604800&rtpof=true&sd=true
+
+discussions: [2]
 ---
 
 

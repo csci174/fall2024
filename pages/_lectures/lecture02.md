@@ -25,22 +25,27 @@ readings:
       title: Joan is Awful
       url: https://www.netflix.com/watch/80195733
       notes: Black Mirror. Season 6, Episode 1 (either / or)
+      pick_one: 1
     - start_date: "2024-08-22"
       title: Nosedive
       url: https://www.netflix.com/watch/80195733
       notes: Black Mirror. Season 3, Episode 1 (either / or)
-
+      pick_one: 1
 activities:
     - start_date: "2024-08-22"
       num: 2
       type: activity
-      title: Black Mirror Discussion
+      title: In-class discussion questions
       url: https://docs.google.com/document/d/1L_UrsFh9SWu1X-0AQizG-atDUDwu3b5Sec-por4wli8/edit?tab=t.0#heading=h.yy8uersk64az
+discussions: [1]
+    
 
-questions:
-    - A
-    - B
-    - C
+# questions:
+#     - When did the idea of artificial intelligence begin?
+#     - What were some of the initial applications of artificial intelligence? Who funded the development of these applications?
+#     - When were "deep neural networks" (DNNs) first conceptualized?
+#     - What kinds of technological innovations made DNNs practical?
+#     - What is an algorithm? What is the difference between a static and a dynamic algorithm?
 description: > 
     Today we will discuss a very brief history of AI, and then discuss the two Black Mirror episodes.
 ---

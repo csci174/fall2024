@@ -4,5 +4,5 @@ num: 4
 start_date: 2024-10-31
 layout: default
 description: >
-   TBD
+   <p>STS TBD</p>
 ---

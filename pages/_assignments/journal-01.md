@@ -1,11 +1,12 @@
 ---
 layout: assignment-two-column
 title: "Introductory Reflection"
-type: activity
+type: journal
 abbreviation: IDJ 1
 num: 1
-start_date: 2024-10-31
-due_date: 2024-10-31
+points: 3
+start_date: 2024-08-20
+due_date: 2024-08-20
 ---
 
 Please answer the following questions in your Identity Journal:
