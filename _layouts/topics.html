@@ -107,10 +107,12 @@ layout: two-column
 <h2 id="topic_{{topic.num}}">Unit {{topic.num}}. {{ topic.title }}</h2>
 <div class="card">{{topic.description}}</div>
 {% assign lectures = topic | get_lectures_by_module: site %}
+{% assign idx = 0 %}
 {% for lecture in lectures %}
+{% assign idx = idx | plus: 1 %}
 {% assign lastWeek = "" %}
 {% expandable level=3 expanded="true" 
-    title="{{lecture.title}}"
+    title="{{topic.num}}.{{idx}} {{lecture.title}}"
     id="lecture_{{lecture.num}}"
     tag="{{lecture.start_date | date: '%a, %m/%d'}}" %}
 <p>{{ lecture.description }}</p>
