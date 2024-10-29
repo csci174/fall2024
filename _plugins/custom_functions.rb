@@ -235,7 +235,6 @@ module Jekyll
         date = convert_to_date_if_not_already(date)
         activities = []
         if page && page['activity_links']
-            puts site['activities'].length()
             activities = site['activities'].select { 
                 |item| 
                     page['activity_links'].include?(item['num']) && 

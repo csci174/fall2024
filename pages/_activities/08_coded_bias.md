@@ -4,7 +4,7 @@ title: "Lecture Discussion Questions: Coded Bias"
 type: activity
 start_date: 2024-10-31
 draft: 1
-num: 7
+num: 8
 ---
 
 > ## Credit

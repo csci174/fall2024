@@ -12,7 +12,7 @@ slides:
       num: 11
       type: lecture
       title: Technological Solutionism
-      url: "#"
+      url: "https://docs.google.com/presentation/d/1lf5QcEkBEhyMSyiNpv5XsEUhr-Q1N13n/edit?usp=sharing&ouid=113376576186080604800&rtpof=true&sd=true"
 readings: 
     - start_date: 2024-10-29
       type: reading
@@ -30,6 +30,7 @@ readings:
         <a href="https://www.youtube.com/watch?v=pdRzEASwksA" target="_blank">Will A.G.I. Save the World?</a> Evgeny Morozov (watch the first 30 minutes) 
       required: 1
 discussions: [4]
+activity_links: [7]
 # activities:
 #     - start_date: 2024-10-29
 #       type: activity

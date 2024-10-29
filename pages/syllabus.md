@@ -45,14 +45,6 @@ We’ll be studying many different technologies – old and new. Studying the pa
 The course is open to all students. For CS majors and minors, the course aims to help students to consider and grapple with the ethical dimensions of their work, in order to inform a more critical technical practice. For students coming into the class from other disciplinary vantage points, the course aims to provide a solid foundation for thinking about the possibilities, risks, and impacts of computer-mediated infrastructures on society.
 
 
-
-
-<!-- topics and labs here -->
-
-
-<!-- {% include schedule-very-simple.html %} -->
-
-
 ## Required Texts
 We will be reading chapters from the four required books, listed below:
 * <a href="https://www.ruhabenjamin.com/" target="_blank">Benjamin, R.</a> (2019). <a href="https://www.ruhabenjamin.com/race-after-technology" target="_blank">Race After Technology: Abolitionist Tools for the New Jim Code</a>. John Wiley & Sons.
@@ -75,7 +67,7 @@ The course format will consist of:
 
 You will be assessed based on three categories of work: (1) participation, (2) written assignments and labs, and (3) your final project.
 
-### Participation (30%)
+### Participation (40%)
 Your participation grade will be based on attendance, reading reflections, discussion forums, identity journals, and labs.
 
 #### Class Discussions
@@ -97,7 +89,7 @@ In addition to writing your own responses, you will respond to at least two of y
 #### Identity Journal
 Each student will also create an “Identity Journal” that will be updated throughout the semester, both during and outside of class. The Identity Journal will be a personalized space for you to keep track of how core themes of the class relate directly to your own lived experiences, identities, and perspectives. It will also serve as an artifact of your learning that will be useful to you beyond the class. You may skip one identity journal post without a grade penalty.
 
-### Homework (40%)
+### Homework (30%)
 You will also complete 2-3 homework assignments, which are intended to help you analyze existing technologies and debates using the ideas you’re learning in the course. 
 
 ### Final Project (30%)

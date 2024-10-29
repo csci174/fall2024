@@ -25,7 +25,7 @@ readings:
       citation: >
         <a href="https://independentlens.s3.amazonaws.com/2200/10%20Coded%20Bias/Indie%20Lens%20Pop-Up/CODEDBIAS_DiscussionGuide.pdf" target="_blank">Skim the film's background info</a>
       skim: 1
-activity_links: [7]
+activity_links: [8]
 discussions: [5]
 ---
 
