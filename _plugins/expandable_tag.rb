@@ -58,7 +58,8 @@ module Jekyll
         tag = @args['tag']
         display = is_expanded ? "display: block;" : "display: none;"
         icon = is_expanded ? "<i class='fa-solid fa-angle-down'></i>" : "<i class='fa-solid fa-angle-right'></i>"
-  
+        colon = "<span style='display: none'>: </span>"
+
         # Get the Markdown converter from Jekyll's site context
         converter = context.registers[:site].find_converter_instance(Jekyll::Converters::Markdown)
 
@@ -86,7 +87,7 @@ module Jekyll
         onclick=\"toggleExpandable(this)\"
         style=\"cursor: pointer;\"
         class=\"expandable-heading\">
-            #{title}#{tag ? "<span class='toggle-date'>#{tag}</span>" : ""}
+            #{title}#{tag ? "#{colon}<span class='toggle-date'>#{tag}</span>" : ""}
     </h#{level}>
 </div>
 <div class='expandable-content' 

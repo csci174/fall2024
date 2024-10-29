@@ -9,11 +9,7 @@ start_date: 2024-08-22
 due_date: 2024-08-22
 ---
 
-Please reflect on the episode you watched in this week's Discussion Forum on Moodle. Some questions you might answer are listed below. Shoot for at least 400 words. 
-
-When you're done, please respond to two of your classmates' posts. In the responses, consider:
-- What potential benefits have been missed in the conversation so far?
-- What potential harms have been missed in the conversation so far?
+{% include discussion-post-instructions.html start_date=page.start_date %}
 
 ## Joan is Awful Discussion Questions
 * What stood out to you? What scenes were most memorable and why?

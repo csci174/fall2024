@@ -1,6 +1,6 @@
 ---
 layout: module
-title: "Categorization, Classification & Inequality"
+title: "The Social Implications of Categorization & Classification"
 type: lecture
 num: 6
 draft: 0

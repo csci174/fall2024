@@ -29,11 +29,12 @@ readings:
       citation: >
         <a href="https://www.youtube.com/watch?v=pdRzEASwksA" target="_blank">Will A.G.I. Save the World?</a> Evgeny Morozov (watch the first 30 minutes) 
       required: 1
-activities:
-    - start_date: 2024-10-29
-      type: activity
-      url: https://docs.google.com/document/d/1uoZjdCBsNKtSNU-Bohdg0AtqLPVx5S7_xZ20sOfVluI/edit?usp=sharing
-      title: Discussion Questions
+discussions: [4]
+# activities:
+#     - start_date: 2024-10-29
+#       type: activity
+#       url: https://docs.google.com/document/d/1uoZjdCBsNKtSNU-Bohdg0AtqLPVx5S7_xZ20sOfVluI/edit?usp=sharing
+#       title: Discussion Questions
 
 ---
 

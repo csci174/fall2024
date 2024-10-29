@@ -10,6 +10,8 @@ due_date: 2024-08-29
 ---
 
 
+{% include discussion-post-instructions.html start_date=page.start_date %}
+
 ## Discussion Questions
 When you're done reading your two chapters (Chapter 1 and one of Ch 2, 3, or 5), please answer the two discussion questions below:
 * In 2-3 sentences, describe the philosophical perspective and key moral commitments for the ethical framework you read about (either Utilitarianism, Libertarianism, or Kantian / Deontological Ethics).

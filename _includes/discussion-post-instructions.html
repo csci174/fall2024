@@ -1,0 +1,25 @@
+{% assign date = include.start_date %}
+<blockquote class="info">
+    <h2>Discussion Forum Instructions</h2>
+    <p>
+        Please complete the following assigned readings / videos:
+    </p>
+    <h3>Readings</h3>
+    {% assign page = site.lectures | where: "start_date", date | first %}
+    {% include page_readings.html page=page %}
+
+
+    <h3>Instructions</h3>
+    <ol>
+        <li>
+            <strong>Write a reflection</strong>: When you have completed the readings, please respond to
+            the questions listed below on <em>Moodle</em>. Shoot for at least 400 words.
+        </li>
+        <li><strong>Respond to your classmates</strong>: When you're done, please respond to two of your classmates'
+            posts. In your responses, consider:
+            <ul>
+                <li>What has been missed in the conversation so far?</li>
+            </ul>
+        </li>
+    </ol>
+</blockquote>

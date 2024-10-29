@@ -9,6 +9,8 @@ start_date: 2024-09-05
 due_date: 2024-09-05
 ---
 
+{% include discussion-post-instructions.html start_date=page.start_date %}
+
 ## Option 1. Race After Techology (Introduction)
 Consider the following quote from Benjamin:
 
