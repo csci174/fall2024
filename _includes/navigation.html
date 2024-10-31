@@ -5,7 +5,9 @@
         <li {% if page.url=="/" or page.url contains "/schedule/" %}class="active" {% endif %}><a
                 href="{{site.baseurl}}/">Schedule</a></li>
         <li {% if page.url contains "/assignments/" %}class="active" {% endif %}><a
-                href="{{site.baseurl}}/assignments/">Assignments</a></li>
+                href="{{site.baseurl}}/assignments/">Homework</a></li>
+        <li {% if page.url contains "/async/" %}class="active" {% endif %}><a
+                href="{{site.baseurl}}/async/">Asynchronous Participation</a></li>
         <li><a href="https://drive.google.com/drive/folders/1KqbTO4H8-5Lov2TJLJsbW_0wMjzWMUny?usp=sharing"
                 target="_blank">Videos</a></li>
     </ul>

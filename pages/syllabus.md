@@ -13,7 +13,7 @@ instructors:
   - name: "Dr. Sarah Van Wart"
     email: "svanwart@unca.edu"
     pronouns: "she / her"
-    office_hours: "Mo, Tu, Fr 3:30pm - 4:30pm (in person) or by appointment"
+    office_hours: "Mo, Tu, Fr 3:30pm - 4:30pm (on zoom) or by appointment"
     location: "220 Rhoades Robinson Hall"
 catalog_description: >
     This course explores the rapidly evolving role of artificial intelligence (AI) in modern life. Drawing on ideas from Computer Science and Science and Technology Studies (STS), the course will examine some of the values, design choices and tradeoffs that AI-powered systems make in relation to important societal values (e.g., justice, freedom, welfare) in a variety of different contexts (e.g., labor, politics, the environment, health, education). As we analyze these themes, we will attend to the various goals to which AIs are directed, and how these goals can both amplify and diminish the power and agency of different communities and social groups. The course aims to attract students from across the university (of any major).

@@ -1,16 +1,13 @@
 ---
-layout: two-column
+layout: two-column-activity
 title: "Lecture Discussion Questions: Solutionism"
 type: activity
 start_date: 2024-10-29
+due_date: 2024-11-03
 draft: 0
-num: 7
+num: 6
+points: 3
 ---
-<div class="card">
-    <h2 id="readings">Discussion Questions Based on Today's Readings</h2>
-    {% assign page = site.lectures | where: "start_date", page.start_date | first %}
-    {% include page_readings.html page=page %}
-</div>
 
 ## Ruha Benjamin: Chapter 14
 

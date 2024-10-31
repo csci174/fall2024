@@ -13,7 +13,7 @@ slides:
       draft: 1
       type: lecture
       title: Midterm Reflection
-      url: "#"
+      url: https://docs.google.com/presentation/d/1XpompQuMSY7XUnRUfXBn-pBGe9uPQMRC/edit?usp=sharing&ouid=113376576186080604800&rtpof=true&sd=true
 readings: 
     - start_date: 2024-10-31
       type: reading
@@ -25,7 +25,7 @@ readings:
       citation: >
         <a href="https://independentlens.s3.amazonaws.com/2200/10%20Coded%20Bias/Indie%20Lens%20Pop-Up/CODEDBIAS_DiscussionGuide.pdf" target="_blank">Skim the film's background info</a>
       skim: 1
-activity_links: [8]
+activity_links: [7]
 discussions: [5]
 ---
 

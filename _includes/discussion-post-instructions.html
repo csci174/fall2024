@@ -1,29 +1,30 @@
 {% assign date = include.start_date %}
+{% assign comment_date = include.comment_date %}
 <blockquote class="info">
-    <h2>Discussion Forum Instructions</h2>
-    <p>
-        Please complete the following assigned readings / videos:
-    </p>
-    <h3>Readings</h3>
-    {% assign page = site.lectures | where: "start_date", date | first %}
-    {% include page_readings.html page=page %}
+{% expandable title="Forum Posting Instructions" level="2" id="forum-instructions" %}
+<!-- <h3>Readings</h3> -->
+<p>
+    Please complete the following assigned readings / videos:
+</p>
+{% assign page = site.lectures | where: "start_date", date | first %}
+{% include page_readings.html page=page %}
 
-
-    <h3>Instructions</h3>
-    <ol>
-        <li>
-            <strong>Write a reflection</strong>: When you have completed the readings, please respond to
-            the questions listed below on <em>Moodle</em>. Shoot for at least 400 words.
-        </li>
-        <li><strong>Respond to your classmates</strong>: When you're done, please respond to two of your classmates'
-            posts. In your responses, consider:
-            <ul>
-                <li>What has been missed in the conversation so far?</li>
-                <li>Can you think of additional examples that either support or refudiate the point that your classmate
-                    is making?</li>
-                <li>Can you bring any authors we've been studying into the conversation? For instance, how might
-                    Benjamin, Winner, Sandel, Haidt, etc. respond?</li>
-            </ul>
-        </li>
-    </ol>
+<!-- <h3>Posting</h3> -->
+When you're done:
+<ul>
+    <li>Post to the forum <strong>before class on {{ date | date: '%A, %m/%d' }}</strong> by responding to the discussion prompts (below).
+        Shoot for 400 words.</li>
+    <li>Then, before midnight on <strong>{{ comment_date | date: '%A, %m/%d' }}</strong>, respond to two of your classmates'
+        posts.
+        <!-- In your responses, consider:
+        <ul>
+            <li>What has been missed in the conversation so far?</li>
+            <li>Can you think of additional examples that either support or refudiate the point that your classmate
+                is making?</li>
+            <li>Can you bring any authors we've been studying into the conversation? For instance, how might
+                Benjamin, Winner, Sandel, Haidt, etc. respond?</li>
+        </ul> -->
+    </li>
+</ul>
+{% endexpandable %}
 </blockquote>

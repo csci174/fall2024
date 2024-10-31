@@ -9,8 +9,6 @@ start_date: 2024-08-27
 due_date: 2024-08-27
 ---
 
-Respond to the following prompt in your identity journal. Then copy your answer into the submission section on Moodle.
-
 ## Background & Instructions
 Haidt argues that there are 5 universal moral dimensions that we’re all born with. And that the weights given to #3, #4, and #5 differ most between liberals & conservatives:
 * Harm / care 
@@ -30,7 +28,7 @@ For this identity journal entry, you’re going to consider whether all debates 
 * Something of your choice
 
 ## Questions to Answer
-Then answer the following questions:
+Then answer the following questions in your identity journal:
 1. Describe the issue you picked and the different perspectives on it.
 1. What is your perspective on the issue?
 What are other perspectives on the issue that you don’t necessarily agree with?
@@ -38,3 +36,6 @@ What are other perspectives on the issue that you don’t necessarily agree with
     * Which moral dimensions do you weigh most highly? 
     * Which moral dimensions might the opposition weigh most highly?
     * Do you think this framework is useful for coming to a resolution?
+
+## What to Submit
+When you're done, please paste your answers in the Moodle by the deadline.

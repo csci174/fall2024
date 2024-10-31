@@ -54,11 +54,14 @@ module Jekyll
         start_date = Date.strptime(start_date, '%Y-%m-%d') if start_date.is_a?(String)
         end_date = Date.strptime(end_date, '%Y-%m-%d') if end_date.is_a?(String)
   
-        # Calculate the difference in days between the two dates
-        days_difference = (end_date - start_date).to_i
-  
-        # Convert the difference in days to weeks and return the result
-        (days_difference / 7.0).to_i + 1
+        if end_date != nil && start_date != nil
+            # Calculate the difference in days between the two dates
+            days_difference = (end_date - start_date).to_i
+    
+            # Convert the difference in days to weeks and return the result
+            return (days_difference / 7.0).to_i + 1
+        end
+        return "???"
       end
 
 

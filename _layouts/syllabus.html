@@ -34,11 +34,9 @@
                             {{ instructor.name }} ({{ instructor.pronouns }})
                             <ul>
                                 <li>{{ instructor.email }}
-                                    {% if instructor.location %}
-                                    &bull; {{ instructor.location }}
-                                    {% endif %}
                                 </li>
-                                <li>Office Hours: {{ instructor.office_hours }}</li>
+                                <li>Office Hours: {{ instructor.office_hours }}<br>
+                                    Zoom Link: <a href="https://unca-edu.zoom.us/j/7543717427" target="_blank">https://unca-edu.zoom.us/j/7543717427</a></li>
                             </ul>
                             {% endfor %}
                         </td>

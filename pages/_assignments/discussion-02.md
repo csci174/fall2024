@@ -4,13 +4,14 @@ title: "Moral Philosophy"
 type: forum
 abbreviation: Forum
 num: 2
-points: 3
+points: 4
 start_date: 2024-08-29
 due_date: 2024-08-29
+comment_date: 2024-09-01
 ---
 
 
-{% include discussion-post-instructions.html start_date=page.start_date %}
+{% include discussion-post-instructions.html start_date=page.start_date comment_date=page.comment_date %}
 
 ## Discussion Questions
 When you're done reading your two chapters (Chapter 1 and one of Ch 2, 3, or 5), please answer the two discussion questions below:

@@ -53,18 +53,7 @@ readings:
       citation: Chapter 8. Aristotle (Virtue Ethics)
       pick_one: 1
       required: 1
-activities:
-    - start_date: "2024-08-29"
-      num: 2
-      type: activity
-      title: "Summarize a Philosophical Perspective: Utilitarianism, Deonological Ethics, and Libertarianism"
-      url: https://docs.google.com/document/d/16SYPq6psBc832cdazPO_36E_n3tHEZXl/edit
-    - start_date: "2024-09-03"
-      num: 3
-      type: activity
-      title: "Summarize a Philosophical Perspective: Rawles & Aristotle"
-      url: https://docs.google.com/document/d/1J3ZdRjLMbymF7FIGltwXjC5iM_OrLklt/edit?usp=sharing&ouid=113376576186080604800&rtpof=true&sd=true
-
+activity_links: [2, 3]
 discussions: [2]
 ---
 

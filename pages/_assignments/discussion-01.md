@@ -4,12 +4,13 @@ title: "Black Mirror"
 type: forum
 abbreviation: Forum
 num: 1
-points: 3
+points: 4
 start_date: 2024-08-22
 due_date: 2024-08-22
+comment_date: 2024-08-25
 ---
 
-{% include discussion-post-instructions.html start_date=page.start_date %}
+{% include discussion-post-instructions.html start_date=page.start_date comment_date=page.comment_date %}
 
 ## Joan is Awful Discussion Questions
 * What stood out to you? What scenes were most memorable and why?

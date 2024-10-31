@@ -5,8 +5,8 @@ type: journal
 abbreviation: IDJ 4
 num: 4
 points: 3
-start_date: 2024-08-27
-due_date: 2024-08-27
+start_date: 2024-09-24
+due_date: 2024-09-24
 ---
 
 Pick an identity category that others tend to associate with you. It could be something related to race, gender, ethnicity, nationality, ability, sexual orientation, etc.; or it could be associated with a role that you occupy (e.g. “athlete,” “student,” “middle child”, “geek”, etc.). Then answer the following questions:

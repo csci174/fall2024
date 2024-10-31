@@ -4,12 +4,13 @@ title: "Technological Solutionism"
 type: forum
 abbreviation: Forum
 num: 4
-points: 3
+points: 4
 start_date: 2024-10-29
 due_date: 2024-10-29
+comment_date: 2024-10-31
 ---
 
-{% include discussion-post-instructions.html start_date=page.start_date %}
+{% include discussion-post-instructions.html start_date=page.start_date comment_date=page.comment_date %}
 
 ## Option 1. Technological Benevolence with Ruja Benjamin
 Many new technologies have emerged that claim to mitigate human bias. However, Benjamin shows us (on pp. 140-143 and elsewhere) how these supposedly more objective technologies can and do still discriminate (and sometimes make things worse). For this discussion forum, answer the following 3 questions:

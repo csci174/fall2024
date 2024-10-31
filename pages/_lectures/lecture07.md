@@ -28,6 +28,7 @@ readings:
       type: reading
       citation: >
         D'Ignazio, Catherine & Klein, Lauren (2020). Introduction. <a href="https://data-feminism.mitpress.mit.edu/" target="_blank">Why Data Science Needs Feminism</a>. Data Feminism.  Read the introduction, but please also skim the chapter titles to get a sense of the book.
+      skim: 1
     - start_date: "2024-09-24"
       type: reading
       citation: >
@@ -36,23 +37,15 @@ readings:
     - start_date: "2024-09-24"
       type: reading
       citation: >
-        (December 18, 2016). The Long and Brutal History of Fake News. Politico.
+        (December 18, 2016). <a href="https://www.politico.com/magazine/story/2016/12/fake-news-history-long-violent-214535" target="_blank">The Long and Brutal History of Fake News</a>. Politico.
       required: 1
     - start_date: "2024-09-24"
       type: reading
       citation: >
-        ‘Going backward’: How demonising migrants remains fertile ground in US Al Jazeera (Sept. 14, 2024) 
+        <a href="https://www.aljazeera.com/news/2024/9/14/going-backward-how-demonising-migrants-remains-fertile-ground-in-us" target="_blank">‘Going backward’: How demonising migrants remains fertile ground in US</a>. Al Jazeera (Sept. 14, 2024) 
       required: 1
-activities:
-    - start_date: "2024-09-17"
-      type: activity
-      num: 5
-      url: https://docs.google.com/document/d/1uoZjdCBsNKtSNU-Bohdg0AtqLPVx5S7_xZ20sOfVluI/edit?usp=sharing
-      title: In-Class Discussion Questions
-    - start_date: "2024-09-24"
-      type: activity
-      num: 6
-      url: https://docs.google.com/document/d/18VXlKMewvyjYJNo6k2-bHYD1aL4SqF2PbbG_LcTEMzU/edit?tab=t.0#heading=h.2ki0ha2jeqvc
-      title: In-Class Discussion Questions
+
+activity_links: [5]
+identity_journals: [4]
 ---
 

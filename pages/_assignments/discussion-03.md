@@ -4,12 +4,13 @@ title: "The Politics of Techololgy"
 type: forum
 abbreviation: Forum
 num: 3
-points: 3
+points: 4
 start_date: 2024-09-05
 due_date: 2024-09-05
+comment_date: 2024-09-08
 ---
 
-{% include discussion-post-instructions.html start_date=page.start_date %}
+{% include discussion-post-instructions.html start_date=page.start_date comment_date=page.comment_date %}
 
 ## Option 1. Race After Techology (Introduction)
 Consider the following quote from Benjamin:

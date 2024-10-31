@@ -1,0 +1,18 @@
+---
+layout: two-column
+---
+<style>
+    article>ol>li {
+        margin-bottom: 20px;
+    }
+
+    li blockquote {
+        margin-top: 20px;
+    }
+</style>
+
+<p>The following discussion questions are based on todays readings / videos:</p>
+{% assign page = site.lectures | where: "start_date", page.start_date | first %}
+{% include page_readings.html page=page %}
+
+{{ content }}
