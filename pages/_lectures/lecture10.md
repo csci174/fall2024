@@ -36,5 +36,11 @@ readings:
       citation: >
         <a href="https://www.youtube.com/watch?v=tfifTUYuAYU" target="_blank">Synaptic Plasticity</a>. Brains Explained.
       required: 1
+    - start_date: 2024-11-07
+      type: reading
+      citation: >
+        <a href="https://drive.google.com/file/d/1wM3Fm2C0qphH1hyNg5hXbPehrSp-eu0I/view?usp=sharing" target="_blank">Ch. 1. The Science of Learning</a>. Cambridge Handbook of the Learning Sciences. Keith Sawyer.
+      required: 1
+      
 ---
 
