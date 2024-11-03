@@ -5,6 +5,7 @@ type: forum
 abbreviation: Forum
 num: 2
 points: 4
+lecture_num: 4
 start_date: 2024-08-29
 due_date: 2024-08-29
 comment_date: 2024-09-01

@@ -13,13 +13,13 @@ slides:
       draft: 1
       type: lecture
       title: "How humans learn: Neuroscience & the Brain (Election Day)"
-      url: "#"
+      url: https://docs.google.com/presentation/d/1VW15Fwqd4yeTM0tGlXc-O7yncign2ZJu7Q5dDDlCgnA/edit?usp=sharing
     - start_date: 2024-11-07
       num: 14
       draft: 1
       type: lecture
       title: "How humans learn: Developmental, social, & political processes"
-      url: "#"
+      url: https://docs.google.com/presentation/d/1v3YIc4zFlhM9qJVXmsjGLt-qajxRaScGx_SQQWv6ch4/edit?usp=sharing
 readings: 
     - start_date: 2024-11-05
       type: reading
@@ -40,7 +40,6 @@ readings:
       type: reading
       citation: >
         <a href="https://drive.google.com/file/d/1wM3Fm2C0qphH1hyNg5hXbPehrSp-eu0I/view?usp=sharing" target="_blank">Ch. 1. The Science of Learning</a>. Cambridge Handbook of the Learning Sciences. Keith Sawyer.
-      required: 1
-      
+      required: 1      
 ---
 

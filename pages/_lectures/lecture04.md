@@ -53,8 +53,6 @@ readings:
       citation: Chapter 8. Aristotle (Virtue Ethics)
       pick_one: 1
       required: 1
-activity_links: [2, 3]
-discussions: [2]
 ---
 
 

@@ -44,8 +44,5 @@ readings:
       citation: >
         <a href="https://www.aljazeera.com/news/2024/9/14/going-backward-how-demonising-migrants-remains-fertile-ground-in-us" target="_blank">‘Going backward’: How demonising migrants remains fertile ground in US</a>. Al Jazeera (Sept. 14, 2024) 
       required: 1
-
-activity_links: [5]
-identity_journals: [4]
 ---
 

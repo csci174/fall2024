@@ -51,7 +51,6 @@ readings:
       citation: >
         Massey, Douglas (2007). <a href="https://www.russellsage.org/sites/default/files/Massey_Chap1_2.pdf" target="_blank">Chapter 1. How Stratification Works</a>. Categorically unequal: The American stratification system.
       required: 1
-activity_links: [4]
 
 ---
 

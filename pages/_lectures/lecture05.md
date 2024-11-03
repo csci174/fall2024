@@ -28,6 +28,5 @@ readings:
       type: reading
       citation: >
         Hilbert, Martin (2015). <a href="https://www.youtube.com/watch?v=4i9vIj5-rxk" target="_blank">Technological Determinism & Social Construction of Technology</a>.
-discussions: [3]
 ---
 

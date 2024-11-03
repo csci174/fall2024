@@ -20,6 +20,5 @@ readings:
       title: Please read the syllabus
       url: /syllabus
       required: 1
-identity_journals: [1]
 ---
 

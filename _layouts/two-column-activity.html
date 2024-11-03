@@ -12,7 +12,7 @@ layout: two-column
 </style>
 
 <p>The following discussion questions are based on todays readings / videos:</p>
-{% assign page = site.lectures | where: "start_date", page.start_date | first %}
-{% include page_readings.html page=page %}
+{% assign lecture = site.lectures | where: "num", page.lecture_num | where: "type", "lecture" | first %}
+{% include page_readings.html page=lecture date=page.start_date %}
 
 {{ content }}

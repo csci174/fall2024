@@ -34,7 +34,6 @@ readings:
         Pinker (2008). <a href="https://drive.google.com/file/d/1lO3sHfqDP9LpSsLAuZiBNn5lusfckWLc/view?usp=sharing" target="_blank">The Moral Instinct</a>. New York Times
       pick_one: 1
       required: 1
-identity_journals: [2]
 ---
 
 

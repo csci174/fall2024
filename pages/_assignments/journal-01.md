@@ -4,6 +4,7 @@ title: "Introductory Reflection"
 type: journal
 abbreviation: IDJ 1
 num: 1
+lecture_num: 1
 points: 3
 start_date: 2024-08-20
 due_date: 2024-08-20

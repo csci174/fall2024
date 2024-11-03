@@ -6,8 +6,9 @@
 <p>
     Please complete the following assigned readings / videos:
 </p>
-{% assign page = site.lectures | where: "start_date", date | first %}
-{% include page_readings.html page=page %}
+{% assign lecture = site.lectures | where: "num", page.lecture_num | where: "type", "lecture" | first %}
+{% include page_readings.html page=lecture date=page.start_date %}
+
 
 <!-- <h3>Posting</h3> -->
 When you're done:
@@ -16,14 +17,6 @@ When you're done:
         Shoot for 400 words.</li>
     <li>Then, before midnight on <strong>{{ comment_date | date: '%A, %m/%d' }}</strong>, respond to two of your classmates'
         posts.
-        <!-- In your responses, consider:
-        <ul>
-            <li>What has been missed in the conversation so far?</li>
-            <li>Can you think of additional examples that either support or refudiate the point that your classmate
-                is making?</li>
-            <li>Can you bring any authors we've been studying into the conversation? For instance, how might
-                Benjamin, Winner, Sandel, Haidt, etc. respond?</li>
-        </ul> -->
     </li>
 </ul>
 {% endexpandable %}

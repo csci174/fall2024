@@ -1,5 +1,5 @@
 {% assign page = include.page %}
-{% assign date = page.start_date %}
+{% assign date = include.date || page.start_date %}
 {% assign show_instructions = page.show_instructions %}
 {% assign readings = page.readings | filter_list_by_date: date %}
 {% assign readings_pick_one = readings | where_exp:"item", "item.pick_one == 1" %}

@@ -39,7 +39,5 @@ activities:
       title: "Google Doc (In-Class)"
       type: activity
       url: https://docs.google.com/document/d/1fhuQ87dRsCtIkpRFPytyS6vwed4g37HEP71BLlDlI_M/edit?tab=t.0#heading=h.mpz33m8audi5
-activity_links: [7]
-discussions: [5]
 ---
 

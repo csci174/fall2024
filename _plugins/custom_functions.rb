@@ -204,49 +204,40 @@ module Jekyll
       end
 
 
-      def get_discussions_by_module_by_date(page, site, date)
+      def get_related_content_to_lecture(page, site, date, collection_type, item_type)
         date = convert_to_date_if_not_already(date)
-        discussions = []
-        if page && page['discussions']
-            discussions = site['assignments'].select { 
+        items = []
+        if page
+            items = site[collection_type].select { 
                 |item| 
-                    page['discussions'].include?(item['num']) && 
-                    item['type'] == 'forum' && 
+                    item['lecture_num'] == page['num'] && 
+                    item['type'] == item_type && 
                     convert_to_date_if_not_already(item['start_date']) == date
             }
         end
-        return discussions
+        return items
       end
 
 
       def get_journals_by_module_by_date(page, site, date)
-        date = convert_to_date_if_not_already(date)
-        journals = []
-        if page && page['identity_journals']
-            journals = site['assignments'].select { |item| page['identity_journals'].include?(item['num']) && item['type'] == 'journal' }
-            journals = site['assignments'].select { 
-                |item| 
-                    page['identity_journals'].include?(item['num']) && 
-                    item['type'] == 'journal' && 
-                    convert_to_date_if_not_already(item['start_date']) == date
-            }
-        end
-        return journals
+        return get_related_content_to_lecture(
+            page, site, date, 'assignments', 'journal'
+        )
       end
 
+
+      def get_discussions_by_module_by_date(page, site, date)
+        return get_related_content_to_lecture(
+            page, site, date, 'assignments', 'forum'
+        )
+      end
+
+
       def get_activities_by_module_by_date(page, site, date)
-        date = convert_to_date_if_not_already(date)
-        activities = []
-        if page && page['activity_links']
-            activities = site['activities'].select { 
-                |item| 
-                    page['activity_links'].include?(item['num']) && 
-                    item['type'] == 'activity' && 
-                    convert_to_date_if_not_already(item['start_date']) == date
-            }
-        end
-      return activities
-    end
+        return get_related_content_to_lecture(
+            page, site, date, 'activities', 'activity'
+        )
+      end
 
 
       def get_all_module_activities(page, site)

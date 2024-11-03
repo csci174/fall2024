@@ -6,6 +6,7 @@ start_date: 2024-10-31
 due_date: 2024-11-03
 draft: 0
 num: 7
+lecture_num: 9
 points: 3
 ---
 

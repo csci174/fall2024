@@ -34,8 +34,6 @@ videos:
       type: video
       title: Lecture recording
       url: https://drive.google.com/file/d/1OTL_RdaXaq_bIwtYjgx1XVE567zswKud/view?usp=drive_link
-discussions: [4]
-activity_links: [6]
 
 ---
 

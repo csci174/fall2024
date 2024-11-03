@@ -31,8 +31,6 @@ readings:
       url: https://www.netflix.com/watch/80195733
       notes: Black Mirror. Season 3, Episode 1 (either / or)
       pick_one: 1
-activity_links: [1]
-discussions: [1]
 description: > 
     This lecture gives a very brief history and overview of AI. We will then analyze the two Black Mirror episodes and identify some of the themes and issues that each episode raises regarding AI and society.
 ---

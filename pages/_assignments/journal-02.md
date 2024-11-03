@@ -1,10 +1,11 @@
 ---
 layout: assignment-two-column
-title: "Introductory Reflection"
+title: "The Science of Morality"
 type: journal
 abbreviation: IDJ 2
 num: 2
 points: 3
+lecture_num: 3
 start_date: 2024-08-27
 due_date: 2024-08-27
 ---
