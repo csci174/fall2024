@@ -3,7 +3,7 @@ layout: module
 title: "Human Intelligence"
 type: lecture
 num: 10
-draft: 1
+draft: 0
 start_date: 2024-11-05
 # description: >
 #    TBD
@@ -29,8 +29,16 @@ readings:
     - start_date: 2024-11-05
       type: reading
       citation: >
-        <a href="https://www.youtube.com/watch?v=eAbIWSPS1M4" target="_blank">Neuron Basics</a>. Brains Explained.
+        Actually, this one is better: <a href="https://www.youtube.com/watch?v=A0ucST0jyqw" target="_blank">Action Potential - Firing of a Neuron</a>. Psych Explained.
       required: 1
+    - start_date: 2024-11-05
+      type: reading
+      citation: >
+        <a href="https://www.youtube.com/watch?v=Y24vUbOn6N8" target="_blank">Synaptic transmission I The Synapse I How Neurons Communicate</a>. Psych Explained.
+    - start_date: 2024-11-05
+      type: reading
+      citation: >
+        <a href="https://www.youtube.com/watch?v=eAbIWSPS1M4" target="_blank">Neuron Basics</a>. Brains Explained.
     - start_date: 2024-11-05
       type: reading
       citation: >
