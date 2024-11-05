@@ -10,7 +10,7 @@ start_date: 2024-11-05
 slides: 
     - start_date: 2024-11-05
       num: 13
-      draft: 1
+      draft: 0
       type: lecture
       title: "How humans learn: Neuroscience & the Brain (Election Day)"
       url: https://docs.google.com/presentation/d/1VW15Fwqd4yeTM0tGlXc-O7yncign2ZJu7Q5dDDlCgnA/edit?usp=sharing
@@ -48,6 +48,11 @@ readings:
       type: reading
       citation: >
         <a href="https://drive.google.com/file/d/1wM3Fm2C0qphH1hyNg5hXbPehrSp-eu0I/view?usp=sharing" target="_blank">Ch. 1. The Science of Learning</a>. Cambridge Handbook of the Learning Sciences. Keith Sawyer.
-      required: 1      
+      required: 1   
+videos:
+    - start_date: 2024-11-05
+      type: video
+      title: Lecture recording
+      url: https://drive.google.com/file/d/167XdLDNDr4d4jW3av-jw6CiAkFUmwvkM/view?usp=drive_link   
 ---
 
