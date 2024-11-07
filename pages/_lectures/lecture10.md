@@ -16,7 +16,7 @@ slides:
       url: https://docs.google.com/presentation/d/1VW15Fwqd4yeTM0tGlXc-O7yncign2ZJu7Q5dDDlCgnA/edit?usp=sharing
     - start_date: 2024-11-07
       num: 14
-      draft: 1
+      draft: 0
       type: lecture
       title: "How humans learn: Developmental, social, & political processes"
       url: https://docs.google.com/presentation/d/1v3YIc4zFlhM9qJVXmsjGLt-qajxRaScGx_SQQWv6ch4/edit?usp=sharing
