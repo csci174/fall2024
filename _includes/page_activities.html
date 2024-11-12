@@ -34,10 +34,15 @@
 <!-- Discussions & Journals -->
 {% assign discussions = page | get_discussions_by_module_by_date: site, date %}
 {% assign journals = page | get_journals_by_module_by_date: site, date %}
+{% assign homework = page | get_homework_by_module_by_date: site, date %}
+{% assign projects = page | get_projects_by_module_by_date: site, date %}
+
 
 {% assign discussion_count = discussions | size %}
 {% assign journal_count = journals | size %}
-{% assign total = discussion_count | plus: journal_count %}
+{% assign homework_count = homework | size %}
+{% assign project_count = projects | size %}
+{% assign total = discussion_count | plus: journal_count | plus: homework_count | plus: project_count %}
 {% if total > 0 %}
 <strong style="margin-top:20px;display: block;">Homework:</strong>
 {% for discussion in discussions %}
@@ -55,5 +60,15 @@
 <!-- Journals -->
 {% for journal in journals %}
 {{ journal | display_link_or_badge: false, true }}
+{% endfor %}
+
+<!-- Homework -->
+{% for hw in homework %}
+{{ hw | display_link_or_badge: false, true }}
+{% endfor %}
+
+<!-- Projects -->
+{% for project in projects %}
+{{ project | display_link_or_badge: false, true }}
 {% endfor %}
 {% endif %}

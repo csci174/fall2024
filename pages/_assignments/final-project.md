@@ -4,8 +4,9 @@ layout: assignment-two-column
 type: project
 draft: 1
 points: 30
+lecture_num: 12
 abbreviation: Final Project
-start_date: 2024-11-12
+start_date: 2024-11-21
 due_date: 2024-12-12
 ---
 

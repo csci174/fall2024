@@ -226,9 +226,23 @@ module Jekyll
       end
 
 
+      def get_homework_by_module_by_date(page, site, date)
+        return get_related_content_to_lecture(
+            page, site, date, 'assignments', 'homework'
+        )
+      end
+
+
       def get_discussions_by_module_by_date(page, site, date)
         return get_related_content_to_lecture(
             page, site, date, 'assignments', 'forum'
+        )
+      end
+
+      
+      def get_projects_by_module_by_date(page, site, date)
+        return get_related_content_to_lecture(
+            page, site, date, 'assignments', 'project'
         )
       end
 

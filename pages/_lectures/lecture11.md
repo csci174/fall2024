@@ -10,10 +10,10 @@ start_date: 2024-11-12
 slides: 
     - start_date: 2024-11-12
       num: 15
-      draft: 1
+      draft: 0
       type: lecture
       title: "Machine Intelligence Part 1: Intro to Computer Architecture"
-      url: "#"
+      url: https://docs.google.com/presentation/d/1bkDiWD2V4w_wTJvmyf9HI8WaZ9Damdb5aVzz-zTrfJI/edit?usp=sharing
     - start_date: 2024-11-14
       num: 16
       draft: 1
