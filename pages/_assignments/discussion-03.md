@@ -1,6 +1,6 @@
 ---
 layout: assignment-two-column
-title: "The Politics of Techololgy"
+title: "The Politics of Technology"
 type: forum
 abbreviation: Forum
 num: 3
