@@ -73,5 +73,14 @@ readings:
       citation: >
         <a href="https://www.youtube.com/watch?v=UZDiGooFs54" target="_blank">The moment we stopped understanding AI [AlexNet]</a>. Welch Labs (17:37)
       required: 1
+videos:
+    - start_date: 2024-11-12
+      type: video
+      title: Lecture recording (Part 1)
+      url: https://drive.google.com/file/d/1uq0HrMs0q2AePVQsl5K_GQ7aJ9cSnnnw/view?usp=drive_link  
+    - start_date: 2024-11-12
+      type: video
+      title: Lecture recording (Part 2)
+      url: https://drive.google.com/file/d/1Bu6VAq4HIMCMgRSHK-ljkcN_i4WdHybC/view?usp=drive_link
 ---
 
