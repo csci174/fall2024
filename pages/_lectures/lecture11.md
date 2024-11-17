@@ -18,12 +18,12 @@ slides:
       type: lecture
       title: "Machine Intelligence Part 2: Intro to Machine Learning"
       url: https://docs.google.com/presentation/d/1HDEd7oHVQ2ai9Eg-avtmZLcsWqrNrGbxTFRPpoqyoYQ/edit?usp=sharing
-    - start_date: 2024-11-21
+    - start_date: 2024-11-19
       num: 17
-      draft: 1
+      draft: 0
       type: lecture
       title: "Machine Intelligence Part 3: Neuromorphic Computing"
-      url: "#"
+      url: https://docs.google.com/presentation/d/11b5zyHXdncB85U8dIbind7abPkn3UwxeqgL03sQdVQA/edit?usp=sharing
 readings: 
     - start_date: 2024-11-12
       type: reading
@@ -71,6 +71,48 @@ readings:
       citation: >
         <a href="https://www.youtube.com/watch?v=UZDiGooFs54" target="_blank">The moment we stopped understanding AI [AlexNet]</a>. Welch Labs (17:37)
       required: 1
+    - start_date: 2024-11-19
+      type: reading
+      citation: > 
+        Seeker. (2018, November 20). <a href="https://www.youtube.com/watch?v=TetLY4gPDpo" target="_blank">Neuromorphic computing is a big deal for A.I., but what is it?</a>
+      required: 1
+    - start_date: 2024-11-19
+      type: reading
+      citation: > 
+        Intel Technology. (2022, October 6). <a href="https://www.youtube.com/watch?v=6Dcs6fQglRA" target="_blank">Architecture all access: Neuromorphic computing part 1</a>. YouTube.  
+      required: 1
+    - start_date: 2024-11-19
+      type: reading
+      citation: > 
+        Intel Technology. (2022b, November 22). <a href="https://www.youtube.com/watch?v=XWds3FIVm0U&t=162s" target="_blank">Architecture all access: Neuromorphic computing part 2</a>. YouTube. 
+      required: 1
+    - start_date: 2024-11-19
+      type: reading
+      citation: > 
+        Morris, A. (2023, October 12). <a href="https://news.northwestern.edu/stories/2023/10/ai-just-got-100-fold-more-energy-efficient/" target="_blank"> AI just got 100-fold more energy efficient</a>. Northwestern Now. 
+      required: 1
+    - start_date: 2024-11-19
+      type: reading
+      citation: > 
+        Seeker. (2017, May 27). <a href="https://www.youtube.com/watch?v=Vv_2C95cO6s" target="_blank">Moore's Law Is Ending... So, What's Next?</a>
+    - start_date: 2024-11-19
+      type: reading
+      citation: > 
+        Schuman, C. D., Kulkarni, S. R., Parsa, M., Mitchell, J. P., Date, P., & Kay, B. (2022, January 31). <a href="https://www.nature.com/articles/s43588-021-00184-y" target="_blank">Opportunities for neuromorphic computing algorithms and applications</a>. Nature News. 
+
+
+
+        
+
+
+
+
+
+      
+
+
+      
+
 videos:
     - start_date: 2024-11-12
       type: video
@@ -80,5 +122,9 @@ videos:
       type: video
       title: Lecture recording (Part 2)
       url: https://drive.google.com/file/d/1Bu6VAq4HIMCMgRSHK-ljkcN_i4WdHybC/view?usp=drive_link
+    - start_date: 2024-11-14
+      type: video
+      title: Lecture recording
+      url: https://drive.google.com/file/d/1XZTK5SIqyid__9fBPwDNd2zjV0Nx4l7F/view?usp=drive_link
 ---
 

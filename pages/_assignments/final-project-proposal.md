@@ -1,13 +1,14 @@
 ---
-title: Final Project
+title: Final Project Proposal
 layout: assignment-two-column
 type: project
 draft: 1
-points: 25
-num: 1b
-abbreviation: Final Project
+points: 5
+num: 1a
+abbreviation: Final Project 1
+abbreviation: Final Project Proposal
 start_date: 2024-11-21
-due_date: 2024-12-12
+due_date: 2024-12-02
 ---
 
 <style>
