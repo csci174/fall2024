@@ -98,20 +98,7 @@ readings:
     - start_date: 2024-11-19
       type: reading
       citation: > 
-        Schuman, C. D., Kulkarni, S. R., Parsa, M., Mitchell, J. P., Date, P., & Kay, B. (2022, January 31). <a href="https://www.nature.com/articles/s43588-021-00184-y" target="_blank">Opportunities for neuromorphic computing algorithms and applications</a>. Nature News. 
-
-
-
-        
-
-
-
-
-
-      
-
-
-      
+        Schuman, C. D., Kulkarni, S. R., Parsa, M., Mitchell, J. P., Date, P., & Kay, B. (2022, January 31). <a href="https://www.nature.com/articles/s43588-021-00184-y" target="_blank">Opportunities for neuromorphic computing algorithms and applications</a>. Nature News.    
 
 videos:
     - start_date: 2024-11-12

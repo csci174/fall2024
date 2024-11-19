@@ -4,37 +4,58 @@ title: "Lecture Discussion Questions: Neuromorphic Computing"
 type: activity
 start_date: 2024-11-19
 due_date: 2024-11-24
-draft: 1
+draft: 0
 num: 12
 points: 3
 lecture_num: 11
 ---
 
-Here are some discussion questions designed to provoke thought and conversation around the field of neuromorphic computing, a field that aims to mimic the architecture and processes of the human brain to improve computational efficiency and capabilities:
+<style>
+    blockquote p {
+        margin-bottom: 20px;
+    }
+    blockquote p:last-child {
+        margin-bottom: 0;
+    }
+</style>
+
+1. Consider a quote by Mike Davies (<a href="https://youtu.be/6Dcs6fQglRA?si=fosQ7u5yZwXFPEvT&t=145">minute 2:25</a>):
+
+    > "The vision of [the field of neuromorphic computing] is to understand the principles of brain computation at the circuit level and then map this insight into a form that we can implement and mass produce in chips for breakthroughs in technology."
+
+    Does this vision excite to you? Does it worry you? Please explain.
+
+
+1. Consider another quote by Mike Davies (<a href="https://youtu.be/6Dcs6fQglRA?si=fosQ7u5yZwXFPEvT&t=550">minute 9:13</a>): 
+
+    > "Computation in [a neuromorphic] system is an emergent process. It's the consequence of millions of neurons independently executing and interacting. Input data disrupts the network and causes it to settle into some new equilibrium state encoding a computational result. 
+    >
+    > From an AI perspective, learning too is emergent. As a network processes information, it self-organizes, reconfiguring its parameters until it achieves a better adaptive state for solving whatever objective it's tackling...Rather than execute rigidly programmed instructions as in conventional processors, neuromorphic chips search for equilibrium states in their program networks."
+
+    Can you try to paraphrase what he's saying in a simpler way? What do you think an equilibrium state means?
+
+1. Sarah looked up how the brain learns using ChatGPT. According to ChatGPT...
+
+   > "When the brain processes a new stimulus, it disrupts the current network equilibrium. The neurons interact dynamically, causing fluctuations in activity until they settle into a new stable pattern. This new stable pattern represents how the brain interprets the stimulus and updates its internal model of the world. From an AI perspective, this settling into a stable state (the equilibrium) after processing input could be seen as similar to finding a solution to a problem or making a decision."
+
+   What do you think of this conception of the mind? If we were to invite a neuroscientist into the class, what questions would you have?
 
 ## General Understanding
-What is neuromorphic computing, and how does it differ from traditional computing architectures?
-What advantages does it have over conventional systems based on the von Neumann architecture?
+1. What is neuromorphic computing, and how does it differ from traditional computing architectures?
 
-What are some of the most significant challenges in building neuromorphic hardware and software?
-Which aspects of the brain are hardest to replicate, and why?
+1. What advantages does it have over conventional systems based on the von Neumann architecture?
+
+1. What are some of the most significant challenges in building neuromorphic hardware and software?
 
 ## Biological Inspiration and Design
-How closely should neuromorphic systems mimic biological neural networks?
-Do we need to precisely copy the brain's structure, or can we develop our own variations inspired by nature?
-
-What can we learn from biological brains that traditional computer architectures fail to address?
-Are there specific brain functions or features that you think neuromorphic computing should prioritize?
-
-How does the brain’s way of processing information, using both analog and digital signals, influence the design of neuromorphic systems?
-What are the benefits and potential drawbacks of adopting a similar hybrid model in artificial systems?
+1. What can we learn from biological brains that traditional computer architectures fail to address?
+1. Are there specific brain functions or features that you think neuromorphic computing should prioritize?
 
 ## Applications and Use Cases
-What are some of the most promising applications of neuromorphic computing in current technology?
+1. What are some of the most promising applications of neuromorphic computing in current technology?
 How could it change fields like artificial intelligence, robotics, or sensory processing?
-
-In what ways might neuromorphic systems improve machine learning and artificial intelligence compared to traditional deep learning models?
-Will neuromorphic computing enable more human-like AI systems, and if so, how?
+1. In what ways might neuromorphic systems improve machine learning and artificial intelligence compared to traditional deep learning models?
+1. Will neuromorphic computing enable more human-like AI systems, and if so, how?
 
 Could neuromorphic systems potentially be used to solve problems that current supercomputers struggle with, such as real-time pattern recognition or natural language processing?
 What specific tasks might benefit the most?
@@ -47,16 +68,14 @@ What role do memristors, specialized transistors, or other new hardware componen
 How do they differ from conventional components, and why are they necessary?
 
 ## The Future of Computing and Ethics
-How might neuromorphic computing change our understanding of intelligence and consciousness?
-Do you think machines with neuromorphic chips could develop a kind of "machine consciousness," or is that still science fiction?
-
-What are the potential ethical concerns with developing neuromorphic systems that closely mimic human cognition?
+1. How might neuromorphic computing change our understanding of intelligence and consciousness?
+1. Do you think machines with neuromorphic chips could develop a kind of "machine consciousness," or is that still science fiction?
+1. What are the potential ethical concerns with developing neuromorphic systems that closely mimic human cognition?
 Could there be unintended consequences if we succeed in creating systems that behave like the human brain?
+1. What are the privacy implications of neuromorphic computing, especially in scenarios involving pattern recognition and sensory data?
 
-Will neuromorphic computing eventually replace current architectures, or will it be complementary?
-What are the scenarios in which traditional systems might still outperform neuromorphic ones?
 
-## Challenges in Adoption and Development
+<!-- ## Challenges in Adoption and Development
 What are the biggest barriers to scaling neuromorphic computing to the mainstream market?
 Is it a lack of funding, understanding, technical limitations, or something else?
 
@@ -97,4 +116,4 @@ Will it require new skills, and if so, what might those skills be?
 What economic impact might the rise of neuromorphic systems have, particularly in areas like healthcare, automotive, and consumer electronics?
 Could it lead to a technological divide, or make advanced technology more accessible?
 
-These questions can lead to rich discussions on the technological, ethical, and societal implications of neuromorphic computing, encouraging both technical and non-technical exploration of the topic.
+These questions can lead to rich discussions on the technological, ethical, and societal implications of neuromorphic computing, encouraging both technical and non-technical exploration of the topic. -->
