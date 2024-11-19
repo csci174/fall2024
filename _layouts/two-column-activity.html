@@ -11,8 +11,9 @@ layout: two-column
     }
 </style>
 
-<p>The following discussion questions are based on todays readings / videos:</p>
-{% assign lecture = site.lectures | where: "num", page.lecture_num | where: "type", "lecture" | first %}
-{% include page_readings.html page=lecture date=page.start_date %}
-
+<div class="info">
+    <p>The following discussion questions are based on todays readings / videos:</p>
+    {% assign lecture = site.lectures | where: "num", page.lecture_num | where: "type", "lecture" | first %}
+    {% include page_readings.html page=lecture date=page.start_date %}
+</div>
 {{ content }}

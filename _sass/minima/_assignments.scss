@@ -246,13 +246,20 @@ ol.readings, ul.readings {
     }
 }
 
-blockquote.info {
+blockquote.info, .info {
     background-color: #0076a514;
     padding: 25px 50px;
     border-width: 0;
     padding: 20px; // 0px 20px 40px;
     border-radius: 10px;
-} 
+}
+ 
+.info {
+    margin-bottom: 30px;
+    ul, ol {
+        margin-bottom: 0;
+    }
+}
 
 blockquote.caveat {
     margin: 20px 0px 20px 40px;

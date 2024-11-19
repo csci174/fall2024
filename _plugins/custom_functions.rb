@@ -85,7 +85,7 @@ module Jekyll
         target = get_target(page['url'])
         title = (hide_title || simple) ? "" : "<span>#{page['title']}</span>"
         link_icon = simple ? "" : " <i class='fa-solid fa-link'></i>"
-        extras = (page['type'] == "reading" and page['required'] == nil) ? " <span class='optional'>optional</span>" : ""
+        extras = (page['type'] == "reading" and page['required'] == nil and page['pick_one'] == nil) ? " <span class='optional'>optional</span>" : ""
         extras = (page['type'] == "reading" and page['skim'] == 1) ? " <span class='optional'>skim</span>" : extras
         colon = "<span style='display: none'>: </span>"
         is_draft = (page['draft'] == 1)

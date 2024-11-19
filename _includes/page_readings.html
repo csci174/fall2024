@@ -3,15 +3,22 @@
 {% assign show_instructions = page.show_instructions %}
 {% assign readings = page.readings | filter_list_by_date: date %}
 {% assign readings_pick_one = readings | where_exp:"item", "item.pick_one == 1" %}
-{% assign readings_not_pick_one = readings | where_exp:"item", "item.pick_one != 1" %}
+{% assign readings_required = readings | where_exp:"item", "item.required == 1" %}
+{% assign readings_skim = readings | where_exp:"item", "item.skim == 1" %}
+
+<!-- Such a hack -->
+{% assign readings_without_skim = readings | where_exp: "item", "item.skim != 1" %}
+{% assign readings_without_required = readings_without_skim | where_exp: "item", "item.required != 1" %}
+{% assign readings_optional = readings_without_required | where_exp: "item", "item.pick_one != 1" %}
+
+
 {% if show_instructions %}
-    {{ page.reading_instructions}}
+{{ page.reading_instructions}}
 {% endif %}
-{% if readings_not_pick_one.size > 0 %}
+{% if readings.size > 0 %}
 <ul>
-    {% for reading in readings_not_pick_one %}
-    <li>{{ reading | display_link_or_badge: true, false, true }}
-    </li>
+    {% for reading in readings_required %}
+    <li>{{ reading | display_link_or_badge: true, false, true }}</li>
     {% endfor %}
     {% if readings_pick_one.size > 0 %}
     <li>Pick One:
@@ -23,5 +30,11 @@
         </ul>
     </li>
     {% endif %}
+    {% for reading in readings_skim %}
+    <li>{{ reading | display_link_or_badge: true, false, true }}</li>
+    {% endfor %}
+    {% for reading in readings_optional %}
+    <li>{{ reading | display_link_or_badge: true, false, true }}</li>
+    {% endfor %}
 </ul>
 {% endif %}
