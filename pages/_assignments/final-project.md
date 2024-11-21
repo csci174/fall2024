@@ -2,7 +2,7 @@
 title: Final Project
 layout: assignment-two-column
 type: project
-draft: 1
+draft: 0
 points: 25
 num: 1b
 abbreviation: Final Project
@@ -14,65 +14,70 @@ due_date: 2024-12-12
 h4 {
     margin: 5px 0;
 }
+
+.info {
+    padding: 20px;
+}
+.info h3 {
+    margin: 0 0 10px 0;
+}
+article ol > li {
+    margin-bottom: 20px;
+}
 </style>
 
-## I. Introduction
-For your final assignment in this class, I want to push you to think about how you might want to contribute to a just, AI-mediated future. You can think about this very broadly. For instance:
+## Introduction
+For your final assignment in this class, I want to push you to think about how you might want to contribute to a more just, AI-mediated future. You can think about this very broadly. For instance:
 
 * Writing a piece of science fiction that explores the social / ethical implications of a particular technology.
-* Prototyping an alternative platform/app that instantiates a set of ethical and political commitments
+* Prototyping an alternative platform/app that instantiates a set of ethical and political commitments.
 * Designing a set of interactive tools / activities / games to help people learn more about a social or ethical challenge.
-* Creating a magazine or online journal of critical socio-techical thought
-* Organizing a career fair that highlights a different set of possible career trajectories
-* Create a podcast
+* Creating a podcast, video, website, powerpoint presentation, or zine that helps someone learn about an AI technique and its potential impacts.
+* Propose your own idea!
 
-And more! I’ve curated a list of resources here that can give you some ideas.
-You may work individually or in groups of no more than three (3) people.
+## Requirements
+I encourage you to pursue a topic and a task that interest you, and to communicate your thinking in a way that plays to your strengths. That said, the following requirements must be met:
 
-## II. Format
-Final submission of the project will include:
+1. You must explore some kind of AI and describe how it. Some questions you should probably answer:
+    * Who created this technology, and why did they create it?
+    * Where does the data come from? What algorithm(s) / techniques does the technology use? 
+    * How is the technology used?
+    * Is this technology "intelligent" (and make sure it's clear how you are defining intelligence)?
 
-1. A short (no more than 5 min) presentation due before the last day of class
-1. A presentable prototype or writing piece (whether it’s a chapter, podcast, interactive demo, video, etc.)
-1. A proposal document (3-page max, single-spaced), considering the project guidelines below.
-About 2/3 of your effort should dedicated to creating the prototype, and the other 1/3 should be dedicated to the project proposal (which articulates your theory of change).
+1. You must analyze the social impact of the technology, for instance:
+    * What values does this technology reflect, embrace, reject, or encourage?
+    * **Who is affected by its design** (stakeholders)?
+    * How was its design affected by society?
+    * **Who reaps the benefits, and who suffers the costs of its creation and use?**
 
-## III. Presentation Guidelines
-You will record a short (no more than 5 min) presentation about your project. Think of your presentation as a project pitch to get feedback from your peers and instructors. If you worked in a group, you can record together or individually. Briefly present each of the five components (described below) of your proposal and include a picture, screenshot, or description of your prototype.
+1. In your analysis of social impact, you must incorporate ideas from at least 2 thinkers that we discussed in [Unit 3](/fall2024/#topic_3) and/or [Unit 5](/fall2024/#topic_5).
 
-## IV. Prototype Guidelines
-Your prototype should give us a sense of what you hope to create. This could be a sample story, module, podcast, presentation, etc. Or, if you’re planning to build an app, website, or game, it could be a prototype of your vision.
+1. You must take a position on how to make the technology better. Some questions you should probably answer:
+    * Should this technology even exist? Might the goals pursued by this technology be better achieved through other means?
+    * How can the benefits of the technology be maximized?
+    * How can the harms of the technology be minimized?
 
-I want you to spend some time creating something concrete, to help me and your classmates to understand what you are envisioning, and how it might function to achive a particular ethical / social goal.
+1. You must use at least 5 outside sources to frame your analysis.
 
-## V. Proposal Guidelines
-Your 3-page project proposal must address the following:
+1. You must cite your sources in APA format.
 
-### 1. Background
-Give a brief overview of your project and what led you to it. Connect with readings from the course. Who are the people you’re intending to support with your project? Why?
+{:.info}
+> ### For anyone writing a SciFi Story
+> 1. Make sure that your story is in conversation with the readings. For instance, in both Black Mirror episodes that we watched in Week 1, surveillance capitalism, terms of service issues, and categorization / classification / metrics systems were explored in an interesting and engaging way. Make sure that your story is helping your reader think deeply about a contemporary AI-related issue.
 
-### 2. Objectives
-Who is the audience? Why? What should they learn from your project? What would a successful project look like beyond the prototype?
-
-### 3. Methodology
-How does your project help your audience reach your goal? Include background research on whether this method or similar methods have been employed before. What are the pros and cons, what makes this different?
-
-### 4. Positionality
-Reflect on your position as designer(s) of this project. In what ways are you an insider to your audience’s needs? In what ways are you an outsider?
-
-## 5. Next Steps
-If you were to implement this project, what are your next steps in terms of research:
-
-* Name 3 people you would contact? Who would you see yourself collaborating with / learning from?
-* How will you reach out to the people who really understand the context you’re studying and who are most impacted by the technology to make sure you understand their needs?
-* How will you test your prototype to ensure you’re delivering the message / idea / topic effectively (think back to what you defined as success in your objectives)?
+You may work individually or in groups of no more than three people. 
 
 
-## VII. Rubric
+## Deliverable 1 (5 Points)
+Please fill out <a href="https://docs.google.com/document/d/1TurYqnzeyGhZcSTVcdw7Vzn2uYa3eXJ9hB5coGPrn0I/edit?usp=sharing" target="_blank">this Google Document</a>.
 
-| |Full  (Grade: A-B) | Partial  (Grade: B-C) | Needs work  (Grade: C or |
-|--|--|--|--|
-|  Class Connections  | Thoughtful integration of readings from class. Makes clear how learnings from readings will be useful for the design of prototype. | Includes references to readings, but integration is unclear or incoherent; link to design of prototype is partial or incomplete. | Does not integrate readings; unclear how readings are linked to design of prototype. |
-| Proposal Components | All five required sections are present and answer the guiding questions clearly and thoughtfully. | A couple (1-2) required sections are missing, incomplete, or unclear. | A significant (3+) amount of sections are missing, incomplete, or unclear. |
-| Prototype | Concrete prototype; helps grader understand what you are dreaming for in a just technologically-mediated future. | Prototype is vague; somewhat helps grader understand what you are dreaming for in a just technologically-mediated future. | Prototype is incomplete; does not help grader understand what you are dreaming for in a just technologically-mediated future. |
-| Implications | Prototype and proposal works to achieve a particular ethical / social goal. The work demonstrates care and intention to not create or perpetuate harms (e.g., pros/cons, harm reduction strategies, un/anticipated consequences, etc). | Prototype and proposal works to achieve a particular ethical / social goal, but goal is vague or unclear. The work demonstrates some care and intention to not create or perpetuate harms (e.g., pros/cons, harm reduction strategies, un/anticipated consequences, etc). | Prototype and proposal do not work to achieve a particular ethical / social goal. The work does not demonstrate care and intention to not create or perpetuate harms (e.g., pros/cons, harm reduction strategies, un/anticipated consequences, etc). |
+
+## Deliverable 2 (20 Points)
+For your final project deliverable, please submit the following:
+
+1. Your actual deliverable (e.g., story, prototype, podcast, website, game, etc.)
+1. A 1/2 page write-up that answers the following question:
+    * Who is your intended audience for this work? High school teachers? Your friends and family? Policymakers? Middle school students?
+    * In what ways did you consider how different stakeholders, identities, communities might impact / be impacted by this technology? In other words, how does your analysis engage with power?
+    * How do you think you did?
+    * What would you have done if you had more time?
