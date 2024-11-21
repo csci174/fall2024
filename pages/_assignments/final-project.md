@@ -52,17 +52,20 @@ I encourage you to pursue a topic and a task that interest you, and to communica
 
 1. In your analysis of social impact, you must incorporate ideas from at least 2 thinkers that we discussed in [Unit 3](/fall2024/#topic_3) and/or [Unit 5](/fall2024/#topic_5).
 
-1. You must take a position on how to make the technology better. Some questions you should probably answer:
+1. You must take a position on what needs to happen to make this technology work better for humans and / or the environment. Some questions you should probably answer:
     * Should this technology even exist? Might the goals pursued by this technology be better achieved through other means?
     * How can the benefits of the technology be maximized?
     * How can the harms of the technology be minimized?
+    * How do the changes that you're proposing make things better / worse and for whom?
 
 1. You must use at least 5 outside sources to frame your analysis.
 
 1. You must cite your sources in APA format.
 
+1. If you use ChatGPT, be transparent about how you used it as [instructed on the syllabus](../syllabus/#id_chatgpt-policy-adapted-from-boston-university).
+
 {:.info}
-> ### For anyone writing a SciFi Story
+> ### For anyone writing a Sci-Fi Story
 > 1. Make sure that your story is in conversation with the readings. For instance, in both Black Mirror episodes that we watched in Week 1, surveillance capitalism, terms of service issues, and categorization / classification / metrics systems were explored in an interesting and engaging way. Make sure that your story is helping your reader think deeply about a contemporary AI-related issue.
 
 You may work individually or in groups of no more than three people. 
@@ -72,7 +75,7 @@ You may work individually or in groups of no more than three people.
 Please fill out <a href="https://docs.google.com/document/d/1TurYqnzeyGhZcSTVcdw7Vzn2uYa3eXJ9hB5coGPrn0I/edit?usp=sharing" target="_blank">this Google Document</a>.
 
 
-## Deliverable 2 (20 Points)
+## Deliverable 2 (25 Points)
 For your final project deliverable, please submit the following:
 
 1. Your actual deliverable (e.g., story, prototype, podcast, website, game, etc.)

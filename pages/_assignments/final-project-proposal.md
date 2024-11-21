@@ -16,4 +16,5 @@ h4 {
 }
 </style>
 
-For your final project proposal, you will turn in the first deliverable as described in the [final project guidelines](final-project).
+* First, read the [final project guidelines](final-project) carefully. 
+* When you're done, please make a copy of the <a href="https://docs.google.com/document/d/1TurYqnzeyGhZcSTVcdw7Vzn2uYa3eXJ9hB5coGPrn0I/edit?usp=sharing" target="_blank">project propsal worksheet</a> and submit it to the Moodle.
