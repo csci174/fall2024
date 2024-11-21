@@ -10,10 +10,10 @@ start_date: 2024-11-21
 slides: 
     - start_date: 2024-11-21
       num: 18
-      draft: 1
+      draft: 0
       type: lecture
       title: "Business Models, Surveillance Capitalism, the Hype Cycle, and \"Enshitification\""
-      url: "#"
+      url: https://docs.google.com/presentation/d/1Fr1vFI11hdwxcmKv_qi4uT3QzrcmufIVS1Tu-Nufs2g/edit?usp=sharing
 readings: 
     
     - start_date: 2024-11-21
