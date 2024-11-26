@@ -11,7 +11,7 @@ slides:
       draft: 1
       type: lecture
       title: "Energy, Water, Materials, and the Planet"
-      url: "#"
+      url: https://docs.google.com/presentation/d/1iGsU3TNCi1kjm35zXshvvQ8T7pQYhi8VnQ-N5zFn0nQ/edit?usp=sharing
 readings: 
     - start_date: 2024-11-26
       type: reading
