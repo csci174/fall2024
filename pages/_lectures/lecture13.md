@@ -5,8 +5,6 @@ type: lecture
 num: 13
 draft: 1
 start_date: 2024-11-26
-# description: >
-#    TBD
 slides: 
     - start_date: 2024-11-26
       num: 19
