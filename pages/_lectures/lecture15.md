@@ -18,14 +18,14 @@ readings:
     - start_date: 2024-12-05
       type: reading
       citation: >
-        Design Justice
+        Costanza-Chock, Sasha (March, 2020). <a href="https://designjustice.mitpress.mit.edu/pub/cfohnud7/release/2" target="_blank">Design Practices: “Nothing about Us without Us”</a>. Design Justice.
       required: 1
-#     - start_date: 2024-10-31
-#       type: reading
-#       citation: >
-#         <a href="https://independentlens.s3.amazonaws.com/2200/10%20Coded%20Bias/Indie%20Lens%20Pop-Up/CODEDBIAS_DiscussionGuide.pdf" target="_blank">Skim the film's background info</a>
-#       skim: 1
-# activity_links: [7]
-# discussions: [5]
+    - start_date: 2024-12-05
+      type: reading
+      citation: >  
+        Grain, K. M., & Land, D. E. (2017). <a href="https://quod.lib.umich.edu/cgi/t/text/text-idx?cc=mjcsloa;c=mjcsl;c=mjcsloa;idno=3239521.0023.104;g=mjcslg;rgn=main;view=text;xc=1" target="_blank">The social justice turn: Cultivating 'critical hope' in an age of despair</a>. Michigan Journal of Community Service Learning, 23(1).
+      skim: 1
+
+        
 ---
 
