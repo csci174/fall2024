@@ -19,5 +19,10 @@ readings:
         Crawford, K. (2021). <a href="https://learnonline.unca.edu/pluginfile.php/1510960/mod_resource/content/1/CRAWFORD-Earth-2021.pdf" target="_blank">Chapter 1. Earth</a>. In The Atlas of AI. Yale University Press.
       notes: Available via JSTOR through the UNCA library.
       required: 1
+videos:
+    - start_date: 2024-11-26
+      type: video
+      title: Lecture recording
+      url: https://drive.google.com/file/d/19ycyIijWjuoAr8t63k1czrlfffNWCTeT/view?usp=drive_link
 ---
 
