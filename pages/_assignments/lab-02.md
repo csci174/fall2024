@@ -1,6 +1,6 @@
 ---
 layout: assignment-two-column
-title: "Machine Learning Lab"
+title: "Machine Learning Lab (Extra Credit)"
 type: homework
 abbreviation: Homework
 num: 3
