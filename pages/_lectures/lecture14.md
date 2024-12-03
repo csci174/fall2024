@@ -10,10 +10,10 @@ start_date: 2024-12-03
 slides: 
     - start_date: 2024-12-03
       num: 20
-      draft: 1
+      draft: 0
       type: lecture
       title: "The Future of Work"
-      url: "#"
+      url: https://docs.google.com/presentation/d/1RFPMCOCfKqztLQW81dpg8FVjQ0pYtai-oRIhACziBKA/edit?usp=sharing
 readings: 
     - start_date: 2024-12-03
       type: reading
