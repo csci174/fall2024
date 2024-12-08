@@ -29,6 +29,10 @@ due_date: 2024-12-08
     }
 </style>
 
+{:.info}
+> ## This Lab is Extra Credit
+> I have made this lab extra credit. If you do it, you can recoup up to 25% of your homework grade.
+
 In this lab, you will use **Teachable Machine**, a no-code tool by Google, to train a model that can classify different types of input data. We’ll focus on creating custom classes and explore various scenarios where this kind of machine learning technique could be useful and problematic on image data. By the end of this lab, you’ll understand how Teachable Machine works and reflect on its real-world implications.
 
 ---
